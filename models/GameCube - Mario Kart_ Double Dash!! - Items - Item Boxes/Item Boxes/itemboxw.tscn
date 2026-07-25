@@ -1,0 +1,91 @@
+[gd_scene format=3 uid="uid://ctg0y4rasq6gv"]
+
+[ext_resource type="PackedScene" uid="uid://c0dmueiliu6pu" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Items - Item Boxes/Item Boxes/itemboxw_lan.dae" id="1_fnpk5"]
+[ext_resource type="FontFile" uid="uid://bhheljg66af6l" path="res://assets/koopakartdoubledash/KoopaKartDoubleDash-Regular.ttf" id="2_jq208"]
+[ext_resource type="Script" uid="uid://odtvkq6ejwej" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Items - Item Boxes/Item Boxes/controller.gd" id="3_g0jyv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_g0jyv"]
+size = Vector3(1.68, 3.36, 1.68)
+
+[node name="itemboxw_lan" unique_id=1100098933 instance=ExtResource("1_fnpk5")]
+
+[node name="labelgroup" type="Node3D" parent="." index="1" unique_id=1297627607]
+
+[node name="Label3D" type="Label3D" parent="labelgroup" index="0" unique_id=1464322349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.81729543, 0.8469187)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D2" type="Label3D" parent="labelgroup" index="1" unique_id=720621457]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.8510597, -0.81729543, -0.015512288)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D3" type="Label3D" parent="labelgroup" index="2" unique_id=703388360]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.845, -0.81729543, -0.016)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D4" type="Label3D" parent="labelgroup" index="3" unique_id=1021622507]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, -0.81729543, -0.845)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D7" type="Label3D" parent="labelgroup" index="4" unique_id=462183072]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8748205, 0.8469187)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D8" type="Label3D" parent="labelgroup" index="5" unique_id=1279132663]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.8510597, 0.8748205, -0.015512288)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D9" type="Label3D" parent="labelgroup" index="6" unique_id=1355980803]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.845, 0.8748205, -0.016)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D10" type="Label3D" parent="labelgroup" index="7" unique_id=1314860076]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0.8748205, -0.845)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D5" type="Label3D" parent="labelgroup" index="8" unique_id=1137449847]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 1.6840831, -0.012695551)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Label3D6" type="Label3D" parent="labelgroup" index="9" unique_id=2142466]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, -1.6594359, -0.012695551)
+text = "?"
+font = ExtResource("2_jq208")
+font_size = 256
+outline_size = 0
+
+[node name="Node" type="Area3D" parent="." index="2" unique_id=1396234775 node_paths=PackedStringArray("labelgroup", "collisionshape3d", "mesh")]
+script = ExtResource("3_g0jyv")
+labelgroup = NodePath("../labelgroup")
+collisionshape3d = NodePath("CollisionShape3D")
+mesh = NodePath("../n0b0")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Node" index="0" unique_id=2016043664]
+shape = SubResource("BoxShape3D_g0jyv")

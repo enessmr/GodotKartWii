@@ -1,0 +1,46 @@
+mat_boxout
+==========
+  Textures:
+    - mk_spectrum1
+        Scale: 2, 2
+    - mk_mizutama1
+    - check
+        Scale: 1.201171875, 1.201171875
+
+  Ambient Colors:
+    - 50, 50, 50, 50
+
+  Constant Colors:
+    - 255, 255, 255, 86
+
+  Material Colors:
+    - 203, 203, 203, 255
+    - 203, 203, 203, 255
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB)), then add (tex #1 RGB)
+         A = ((tex #1 A) * 128)
+    2: RGB = ((191, 191, 191) * (tex #2 RGB)), then add (prev. RGB)
+         A = 0, then add (prev. A)
+    3: RGB = ((86, 86, 86) * (tex #3 RGB)), then add (prev. RGB)
+         A = (86 * (tex #3 A)), then add (prev. A)
+
+
+
+mat_question
+============
+  Textures:
+    - mk_ques2
+        Offset: 0, -0.02960001304745674
+        Scale: 1.100000023841858, 1.100000023841858
+
+  Ambient Colors:
+    - 50, 50, 50, 50
+
+  Color Registers:
+    - 157, 157, 157, 255
+    - 0, 28, 68, 255
+
+  Steps:
+    1: RGB = (lerp from (0, 28, 68) to (157, 157, 157) using (tex #1 RGB)), multiply by 2
+         A = ((tex #1 A) * (vertex A))

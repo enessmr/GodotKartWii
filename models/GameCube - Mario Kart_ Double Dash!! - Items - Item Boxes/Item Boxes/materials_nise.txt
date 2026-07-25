@@ -1,0 +1,53 @@
+mat_boxin
+=========
+  Textures:
+    - mk_niseIB.1
+        Scale: 2, 2
+
+  Ambient Colors:
+    - 50, 50, 50, 50
+
+  Steps:
+    1: RGB = ((vertex RGB) * (tex #1 RGB)), then add (tex #1 RGB), divide by 2
+         A = ((tex #1 A) * (vertex A))
+
+
+
+mat_boxout
+==========
+  Textures:
+    - mk_mizutama1
+    - mk_ind_checker3
+        Scale: 1.201171875, 1.201171875
+
+  Ambient Colors:
+    - 50, 50, 50, 50
+
+  Constant Colors:
+    - 217, 231, 255, 255
+
+  Steps:
+    1: RGB = (lerp from (217, 231, 255) to (255, 255, 255) using (tex #1 RGB))
+         A = 32, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (prev. RGB), divide by 2
+         A = ((tex #2 A) * (prev. A)), then add (tex #2 A), subtract 127
+
+
+
+mat_question
+============
+  Textures:
+    - mk_ques2
+        Scale: 1.100000023841858, 1.100000023841858
+        Rotation: 1
+
+  Ambient Colors:
+    - 50, 50, 50, 50
+
+  Color Registers:
+    - 255, 255, 93, 255
+    - 0, 28, 68, 255
+
+  Steps:
+    1: RGB = ((255, 255, 93) * (tex #1 RGB)), multiply by 2
+         A = ((tex #1 A) * (vertex A))
