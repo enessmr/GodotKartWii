@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlBox</authoring_tool>
+		</contributor>
+		<created>2020-05-01T02:32:26Z</created>
+		<modified>2020-05-01T02:32:26Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_images>
+		<image id="o_vr-image" name="o_vr">
+			<init_from>
+				<ref>o_vr.png</ref>
+			</init_from>
+		</image>
+	</library_images>
+	<library_materials>
+		<material id="M_KoopaOBJ">
+			<instance_effect url="#M_KoopaOBJ-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="M_KoopaOBJ-fx" name="M_KoopaOBJ">
+			<profile_COMMON>
+				<newparam sid="o_vr-surface">
+					<surface type="2D">
+						<init_from>
+							<ref>o_vr-image</ref>
+						</init_from>
+					</surface>
+				</newparam>
+				<newparam sid="o_vr-sampler">
+					<sampler2D>
+						<source>o_vr-surface</source>
+						<instance_image url="#o_vr-image" />
+						<wrap_s>WRAP</wrap_s>
+						<wrap_t>WRAP</wrap_t>
+						<minfilter>LINEAR</minfilter>
+						<magfilter>LINEAR</magfilter>
+					</sampler2D>
+				</newparam>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse>
+							<texture texture="o_vr-sampler" texcoord="TEXCOORD0" />
+						</diffuse>
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0" name="polygon0">
+			<mesh>
+				<source id="polygon0_Positions">
+					<float_array id="polygon0_PosArr" count="42">158612.5 68682.27 -5125.867 83181.33 68682.27 -135776.6 7750.071 68682.27 -5125.867 -67681.13 68682.27 -135776.6 -143112.4 68682.27 -5125.89 83181.33 -23511.45 -135776.6 158612.5 -23511.45 -5125.867 7750.071 -23511.45 -5125.867 83181.29 -23511.45 125524.9 -67681.17 -23511.45 125524.8 -143112.4 -23511.45 -5125.89 -67681.13 -23511.45 -135776.6 83181.29 68682.27 125524.9 -67681.17 68682.27 125524.8</float_array>
+					<technique_common>
+						<accessor source="#polygon0_PosArr" count="14" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Colors0">
+					<float_array id="polygon0_ColorArr0" count="4">1 1 1 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_ColorArr0" count="1" stride="4">
+							<param name="R" type="float" />
+							<param name="G" type="float" />
+							<param name="B" type="float" />
+							<param name="A" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_UVs0">
+					<float_array id="polygon0_UVArr0" count="56">0.50354 0.9818115 0.489624 0.9910889 0.4758301 0.9814453 0.4620361 0.9910889 0.4481201 0.9818115 0.5288086 0.04296875 0.5574951 0.09277344 0.5 0.0904541 0.5288086 0.1425781 0.4711914 0.1425781 0.4425049 0.09277344 0.4711914 0.04296875 2 0.9805908 1.485352 0.9805908 2 0.01940918 1.485352 0.01940918 0.9926758 0.9805908 0.9926758 0.01940918 0.5 0.9805908 0.5 0.01940918 0.007324219 0.9805908 0.007324219 0.01940918 -0.4853516 0.9805908 -0.4853516 0.01940918 -1 0.01940918 -1 0.9805908 0.489624 0.9726563 0.4620361 0.9726563</float_array>
+					<technique_common>
+						<accessor source="#polygon0_UVArr0" count="28" stride="2">
+							<param name="S" type="float" />
+							<param name="T" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0_Vertices">
+					<input semantic="POSITION" source="#polygon0_Positions" />
+				</vertices>
+				<triangles material="M_KoopaOBJ" count="24">
+					<input semantic="VERTEX" source="#polygon0_Vertices" offset="0" />
+					<input semantic="COLOR" source="#polygon0_Colors0" set="0" offset="1" />
+					<input semantic="TEXCOORD" source="#polygon0_UVs0" set="0" offset="2" />
+					<p>2 0 2 1 0 1 0 0 0 3 0 3 1 0 1 2 0 2 4 0 4 3 0 3 2 0 2 7 0 7 6 0 6 5 0 5 8 0 8 6 0 6 7 0 7 9 0 9 8 0 8 7 0 7 7 0 7 10 0 10 9 0 9 11 0 11 10 0 10 7 0 7 5 0 5 11 0 11 7 0 7 5 0 14 0 0 13 1 0 12 6 0 15 0 0 13 5 0 14 6 0 15 12 0 16 0 0 13 8 0 17 12 0 16 6 0 15 8 0 17 13 0 18 12 0 16 9 0 19 13 0 18 8 0 17 9 0 19 4 0 20 13 0 18 10 0 21 4 0 20 9 0 19 10 0 21 3 0 22 4 0 20 11 0 23 3 0 22 10 0 21 1 0 25 11 0 23 5 0 24 3 0 22 11 0 23 1 0 25 12 0 26 2 0 2 0 0 0 13 0 27 2 0 2 12 0 26 4 0 4 2 0 2 13 0 27</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0_Controller">
+			<skin source="#polygon0">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0_Joints">
+					<Name_array id="polygon0_JointArr" count="1">old_koopa_64_v</Name_array>
+					<technique_common>
+						<accessor source="#polygon0_JointArr" count="1">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Matrices">
+					<float_array id="polygon0_MatArr" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_MatArr" count="1" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Weights">
+					<float_array id="polygon0_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0_Matrices" />
+				</joints>
+				<vertex_weights count="14">
+					<input semantic="JOINT" offset="0" source="#polygon0_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNode" name="RootNode">
+			<node id="old_koopa_64_v" name="old_koopa_64_v" sid="old_koopa_64_v" type="JOINT" />
+			<node id="polygon0" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0_Controller">
+					<skeleton>#old_koopa_64_v</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="M_KoopaOBJ" target="#M_KoopaOBJ">
+								<bind_vertex_input semantic="TEXCOORD0" input_semantic="TEXCOORD" input_set="0" />
+							</instance_material>
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNode" />
+	</scene>
+</COLLADA>

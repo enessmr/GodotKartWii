@@ -1,0 +1,112 @@
+[gd_scene format=3 uid="uid://c6qtp1ylxjh3u"]
+
+[node name="Control" type="Control" unique_id=1883905945]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VirtualJoystick" type="VirtualJoystick" parent="." unique_id=83139862]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.81600004
+anchor_right = 0.096
+anchor_bottom = 1.0
+offset_left = 71.0
+offset_top = 0.23199463
+offset_right = 0.40799713
+offset_bottom = -79.0
+grow_vertical = 0
+joystick_mode = 1
+
+[node name="Button" type="Button" parent="." unique_id=1433147482]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.68700004
+anchor_top = 0.53400004
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 35.575928
+offset_top = -0.03201294
+offset_right = -246.0
+offset_bottom = -227.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Wheelie/Trick"
+
+[node name="Button3" type="Button" parent="." unique_id=2073758063]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.70100003
+anchor_top = 0.679
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.447937
+offset_top = 0.0079956055
+offset_right = -289.0
+offset_bottom = -177.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Pause"
+
+[node name="Button4" type="Button" parent="." unique_id=2105970806]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.71000004
+anchor_top = 0.76900005
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.079956055
+offset_top = -0.31204224
+offset_right = -197.0
+offset_bottom = -61.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Look behind you"
+
+[node name="Button2" type="Button" parent="." unique_id=47744509]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.869
+anchor_top = 0.776
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.088012695
+offset_top = 0.15197754
+offset_right = -42.191895
+offset_bottom = -56.104004
+grow_horizontal = 0
+grow_vertical = 0
+text = "Accelerate"
+
+[node name="Button5" type="Button" parent="." unique_id=1127867215]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.87100005
+anchor_top = 0.404
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.39208984
+offset_top = 0.2079773
+offset_right = -40.191895
+offset_bottom = -248.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Hop/Drift"
+
+[node name="Button6" type="Button" parent="." unique_id=514607031]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.87100005
+anchor_top = 0.17400001
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.39208984
+offset_top = 0.24799347
+offset_right = -40.191895
+offset_bottom = -463.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Item"
