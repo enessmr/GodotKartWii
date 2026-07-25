@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bvasg14848cmy"
+path="res://.godot/imported/r_DS_Desert32_n.mp3-8ab01438507851febf279f593fe0f8a9.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_DS_Desert32_n.mp3"
+dest_files=["res://.godot/imported/r_DS_Desert32_n.mp3-8ab01438507851febf279f593fe0f8a9.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

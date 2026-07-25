@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1fof1clsitgn"
+path="res://.godot/imported/o_hyousyou_winningrun.wav-bf458bde4675a85094314983f016b92e.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_hyousyou_winningrun.wav"
+dest_files=["res://.godot/imported/o_hyousyou_winningrun.wav-bf458bde4675a85094314983f016b92e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

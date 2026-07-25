@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d28wqaa4wspq5"
+path="res://.godot/imported/n_Kinoko_n.mp3-69acdbc49e02bff3cfdc71df2a28536e.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_Kinoko_n.mp3"
+dest_files=["res://.godot/imported/n_Kinoko_n.mp3-69acdbc49e02bff3cfdc71df2a28536e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

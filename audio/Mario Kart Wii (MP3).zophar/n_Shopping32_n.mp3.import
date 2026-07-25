@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d0pakv2dvrvcl"
+path="res://.godot/imported/n_Shopping32_n.mp3-d27dd7ad295a7a542efa5f1614a9c42a.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_Shopping32_n.mp3"
+dest_files=["res://.godot/imported/n_Shopping32_n.mp3-d27dd7ad295a7a542efa5f1614a9c42a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

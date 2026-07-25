@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c5h7qe1w4caj5"
+path="res://.godot/imported/n_ryuusa_n.mp3-04f1ab8718dc2394485aa31408725090.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_ryuusa_n.mp3"
+dest_files=["res://.godot/imported/n_ryuusa_n.mp3-04f1ab8718dc2394485aa31408725090.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

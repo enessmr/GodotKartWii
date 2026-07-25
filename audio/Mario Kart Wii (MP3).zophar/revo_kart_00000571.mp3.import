@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://vr4v1wg31egl"
+path="res://.godot/imported/revo_kart_00000571.mp3-a64f111d2dc921c426ad77c313f2c6dc.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/revo_kart_00000571.mp3"
+dest_files=["res://.godot/imported/revo_kart_00000571.mp3-a64f111d2dc921c426ad77c313f2c6dc.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ifeatyiympiv"
+path="res://.godot/imported/r_ds_battle_n.wav-dcc2456fc13da9c3f63e6392685b2731.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_ds_battle_n.wav"
+dest_files=["res://.godot/imported/r_ds_battle_n.wav-dcc2456fc13da9c3f63e6392685b2731.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.4.1 commit date:2022-12-19, commit time:17:00, hash:55485cb379f7</authoring_tool>
+    </contributor>
+    <created>2023-03-04T00:43:02</created>
+    <modified>2023-03-04T00:43:02</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="glow-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0 0 0 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="beam-effect">
+      <profile_COMMON>
+        <newparam sid="patlamp_light_png-surface">
+          <surface type="2D">
+            <init_from>patlamp_light_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="patlamp_light_png-sampler">
+          <sampler2D>
+            <source>patlamp_light_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="patlamp_light_png-sampler" texcoord="polygon2_UVs0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lamp_red-effect">
+      <profile_COMMON>
+        <newparam sid="lamp2_png-surface">
+          <surface type="2D">
+            <init_from>lamp2_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="lamp2_png-sampler">
+          <sampler2D>
+            <source>lamp2_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="lamp2_png-sampler" texcoord="polygon1_UVs0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lamp_dai-effect">
+      <profile_COMMON>
+        <newparam sid="hilight_png-surface">
+          <surface type="2D">
+            <init_from>hilight_png</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="hilight_png-sampler">
+          <sampler2D>
+            <source>hilight_png-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="hilight_png-sampler" texcoord="polygon0_UVs0"/>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="hilight_png" name="hilight_png">
+      <init_from>hilight.png</init_from>
+    </image>
+    <image id="lamp2_png" name="lamp2_png">
+      <init_from>lamp2.png</init_from>
+    </image>
+    <image id="patlamp_light_png" name="patlamp_light_png">
+      <init_from>patlamp_light.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="glow-material" name="glow">
+      <instance_effect url="#glow-effect"/>
+    </material>
+    <material id="beam-material" name="beam">
+      <instance_effect url="#beam-effect"/>
+    </material>
+    <material id="lamp_red-material" name="lamp_red">
+      <instance_effect url="#lamp_red-effect"/>
+    </material>
+    <material id="lamp_dai-material" name="lamp_dai">
+      <instance_effect url="#lamp_dai-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="polygon3-mesh" name="polygon3">
+      <mesh>
+        <source id="polygon3-mesh-positions">
+          <float_array id="polygon3-mesh-positions-array" count="39">3.08779 0.690214 -10.98397 7.629387 0.690214 -3.117699 4.939677 15.50978 -3.117699 3.087789 0.690214 4.748578 1.742935 15.50978 2.419222 -5.995404 0.690214 4.748578 -4.650549 15.50978 2.419221 -10.537 0.690214 -3.117699 -7.84729 15.50978 -3.117699 -5.995403 0.690214 -10.98397 -4.650548 15.50978 -8.654619 1.742935 15.50978 -8.654618 -1.453807 16.32759 -3.117699</float_array>
+          <technique_common>
+            <accessor source="#polygon3-mesh-positions-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon3-mesh-normals">
+          <float_array id="polygon3-mesh-normals-array" count="39">0.6507797 0.7592666 1.57857e-5 0.9850927 0.1720249 1.79221e-7 0.4837322 0.1716507 -0.8582186 0.4837435 0.1716588 0.8582108 0.3264665 0.7617114 0.5596567 -0.483743 0.1716598 0.8582108 -0.3264664 0.7617113 0.5596567 -0.985099 0.171989 0 -0.6507998 0.7592496 -1.59803e-5 -0.4837427 0.1716595 -0.8582109 -0.3264664 0.7617112 -0.5596569 0.3264449 0.7617493 -0.5596176 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polygon3-mesh-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon3-mesh-map-0">
+          <float_array id="polygon3-mesh-map-0-array" count="108">0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1</float_array>
+          <technique_common>
+            <accessor source="#polygon3-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polygon3-mesh-vertices">
+          <input semantic="POSITION" source="#polygon3-mesh-positions"/>
+        </vertices>
+        <triangles material="glow-material" count="18">
+          <input semantic="VERTEX" source="#polygon3-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polygon3-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polygon3-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 1 1 0 2 2 3 3 3 1 1 4 2 0 5 4 4 6 3 3 7 2 0 8 5 5 9 3 3 10 4 4 11 6 6 12 5 5 13 4 4 14 7 7 15 5 5 16 6 6 17 8 8 18 7 7 19 6 6 20 9 9 21 7 7 22 8 8 23 10 10 24 9 9 25 8 8 26 0 2 27 9 9 28 10 10 29 11 11 30 0 2 31 10 10 32 2 0 33 0 2 34 11 11 35 12 12 36 2 0 37 11 11 38 4 4 39 2 0 40 12 12 41 6 6 42 4 4 43 12 12 44 12 12 45 8 8 46 6 6 47 10 10 48 8 8 49 12 12 50 11 11 51 10 10 52 12 12 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polygon2-mesh" name="polygon2">
+      <mesh>
+        <source id="polygon2-mesh-positions">
+          <float_array id="polygon2-mesh-positions-array" count="42">-231.858 -49.28511 96.65025 -231.858 65.91697 -102.8856 -1.453819 8.315922 -3.117699 -231.858 65.91698 96.65025 -231.858 -49.28509 -102.8856 -231.858 -106.8862 -3.117687 -231.858 123.518 -3.117675 228.9504 -49.28511 -102.8857 228.9504 65.91697 96.65022 -1.453795 8.315922 -3.117699 228.9504 65.91698 -102.8856 228.9504 -49.28509 96.65023 228.9504 -106.8862 -3.11771 228.9504 123.518 -3.117721</float_array>
+          <technique_common>
+            <accessor source="#polygon2-mesh-positions-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon2-mesh-normals">
+          <float_array id="polygon2-mesh-normals-array" count="42">2.18162e-7 -0.8643187 -0.5029448 0 -0.8643186 -0.5029448 0 -0.8643187 -0.5029448 2.61585e-7 -0.8643428 0.5029033 0 -0.8643428 0.5029032 0 -0.8643428 0.5029032 0 0 -1 1.39582e-7 0.8643187 -0.5029447 -1.20722e-7 0.8643187 -0.5029446 -1.67871e-7 0.8643187 -0.5029447 -1.7276e-7 -0.8643427 -0.5029034 0 -0.8643428 -0.5029034 0 -0.8643428 -0.5029034 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#polygon2-mesh-normals-array" count="14" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon2-mesh-map-0">
+          <float_array id="polygon2-mesh-map-0-array" count="36">0.5022278 0.9910583 0.9921875 0.0078125 0.0078125 0.0078125 0.5022278 0.9910583 0.9921875 0.0078125 0.0078125 0.0078125 0.5022278 0.9910583 0.0078125 0.0078125 0.9921875 0.0078125 0.5022278 0.9910583 0.0078125 0.0078125 0.9921875 0.0078125 0.5022278 0.9910583 0.9921875 0.0078125 0.0078125 0.0078125 0.5022278 0.9910583 0.0078125 0.0078125 0.9921875 0.0078125</float_array>
+          <technique_common>
+            <accessor source="#polygon2-mesh-map-0-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polygon2-mesh-vertices">
+          <input semantic="POSITION" source="#polygon2-mesh-positions"/>
+        </vertices>
+        <triangles material="beam-material" count="6">
+          <input semantic="VERTEX" source="#polygon2-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polygon2-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polygon2-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 2 6 6 5 6 7 6 6 8 9 7 9 8 8 10 7 9 11 9 10 12 10 11 13 11 12 14 9 13 15 12 13 16 13 13 17</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polygon1-mesh" name="polygon1">
+      <mesh>
+        <source id="polygon1-mesh-positions">
+          <float_array id="polygon1-mesh-positions-array" count="39">7.629387 0.690214 -3.117699 4.939677 15.50978 -3.117699 3.08779 0.690214 -10.98397 1.742935 15.50978 -8.654618 -4.650548 15.50978 -8.654619 -1.453807 16.32759 -3.117699 1.742935 15.50978 2.419222 -4.650549 15.50978 2.419221 -7.84729 15.50978 -3.117699 -5.995404 0.690214 4.748578 3.087789 0.690214 4.748578 -10.537 0.690214 -3.117699 -5.995403 0.690214 -10.98397</float_array>
+          <technique_common>
+            <accessor source="#polygon1-mesh-positions-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon1-mesh-normals">
+          <float_array id="polygon1-mesh-normals-array" count="39">0.4837322 0.1716507 -0.8582186 0.6507797 0.7592666 1.57857e-5 0.9850927 0.1720249 1.79221e-7 0.3264445 0.7617493 -0.5596178 -0.3264667 0.7617111 -0.5596567 0 1 0 0.326466 0.7617112 0.559657 -0.3264667 0.7617113 0.5596565 -0.6507998 0.7592496 1.5296e-5 -0.483743 0.1716598 0.8582108 0.4837435 0.1716588 0.8582108 -0.985099 0.171989 0 -0.4837427 0.1716595 -0.8582109</float_array>
+          <technique_common>
+            <accessor source="#polygon1-mesh-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon1-mesh-map-0">
+          <float_array id="polygon1-mesh-map-0-array" count="108">0.931366 0.04116821 0.5 0.4613647 0.5 0.04116821 0.8222656 0.4613647 0.5 0.4613647 0.931366 0.04116821 0.7900391 0.4613647 0.8222656 0.4613647 0.931366 0.04116821 0.4971619 0.7519531 0.4971619 0.5526733 0.8612671 0.6523132 0.1330566 0.6523132 0.4971619 0.5526733 0.4971619 0.7519531 0.1330566 0.851593 0.1330566 0.6523132 0.4971619 0.7519531 0.4971619 0.7519531 0.4971619 0.9512329 0.1330566 0.851593 0.8612671 0.851593 0.4971619 0.9512329 0.4971619 0.7519531 0.8612671 0.6523132 0.8612671 0.851593 0.4971619 0.7519531 0.1117859 0.04116821 0.1777344 0.4613647 0.2099609 0.4613647 0.06863403 0.04116821 0.1777344 0.4613647 0.1117859 0.04116821 0.06863403 0.04116821 0.5 0.4613647 0.1777344 0.4613647 0.5 0.04116821 0.5 0.4613647 0.06863403 0.04116821 0.1777344 0.4613647 0.5 0.04116821 0.06863403 0.04116821 0.5 0.4613647 0.5 0.04116821 0.1777344 0.4613647 0.5 0.4613647 0.8882141 0.04116821 0.5 0.04116821 0.7900391 0.4613647 0.8882141 0.04116821 0.5 0.4613647 0.931366 0.04116821 0.8882141 0.04116821 0.7900391 0.4613647</float_array>
+          <technique_common>
+            <accessor source="#polygon1-mesh-map-0-array" count="54" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polygon1-mesh-vertices">
+          <input semantic="POSITION" source="#polygon1-mesh-positions"/>
+        </vertices>
+        <triangles material="lamp_red-material" count="18">
+          <input semantic="VERTEX" source="#polygon1-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polygon1-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polygon1-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 1 1 0 2 2 3 3 3 1 1 4 2 0 5 4 4 6 3 3 7 2 0 8 5 5 9 1 1 10 3 3 11 6 6 12 1 1 13 5 5 14 7 7 15 6 6 16 5 5 17 5 5 18 8 8 19 7 7 20 4 4 21 8 8 22 5 5 23 3 3 24 4 4 25 5 5 26 9 9 27 6 6 28 7 7 29 10 10 30 6 6 31 9 9 32 10 10 33 1 1 34 6 6 35 0 2 36 1 1 37 10 10 38 7 7 39 11 11 40 9 9 41 8 8 42 11 11 43 7 7 44 8 8 45 12 12 46 11 11 47 4 4 48 12 12 49 8 8 50 2 0 51 12 12 52 4 4 53</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="polygon0-mesh" name="polygon0">
+      <mesh>
+        <source id="polygon0-mesh-positions">
+          <float_array id="polygon0-mesh-positions-array" count="36">9.054314 1.611236 -3.117699 3.800254 1.611236 -12.218 3.800254 -4.639339 -12.218 -6.707866 1.611236 -12.218 -6.707866 -4.639339 -12.218 -11.96193 1.611236 -3.117699 -11.96193 -4.639339 -3.117699 -6.707868 1.611236 5.982601 -6.707868 -4.639339 5.982601 3.800254 1.611236 5.982601 3.800254 -4.639339 5.982601 9.054314 -4.639339 -3.117699</float_array>
+          <technique_common>
+            <accessor source="#polygon0-mesh-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon0-mesh-normals">
+          <float_array id="polygon0-mesh-normals-array" count="45">0.5028951 0 -0.8643475 0.5028895 0 -0.8643507 1 0 0 -0.5029252 0 -0.8643299 -0.502874 0 -0.8643599 -1 0 0 -1 0 0 -0.502874 0 0.8643597 -0.5029252 0 0.8643301 0.502874 -1.59235e-6 0.8643597 0.5029253 0 0.8643299 1 0 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#polygon0-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="polygon0-mesh-map-0">
+          <float_array id="polygon0-mesh-map-0-array" count="96">0.0833435 0.1591492 0.0833435 0.477478 0.9166565 0.477478 0.25 0.477478 0.0833435 0.477478 0.0833435 0.1591492 0.25 0.1591492 0.25 0.477478 0.0833435 0.1591492 0.4166565 0.477478 0.25 0.477478 0.25 0.1591492 0.4166565 0.1591492 0.4166565 0.477478 0.25 0.1591492 0.5833435 0.477478 0.4166565 0.477478 0.4166565 0.1591492 0.5833435 0.1591492 0.5833435 0.477478 0.4166565 0.1591492 0.75 0.477478 0.5833435 0.477478 0.5833435 0.1591492 0.75 0.1591492 0.75 0.477478 0.5833435 0.1591492 0.9166565 0.477478 0.75 0.477478 0.75 0.1591492 0.9166565 0.1591492 0.9166565 0.477478 0.75 0.1591492 0.0833435 0.1591492 0.9166565 0.477478 0.9166565 0.1591492 0.25 0.477478 0.9166565 0.477478 0.0833435 0.477478 0.4166565 0.477478 0.9166565 0.477478 0.25 0.477478 0.5833435 0.477478 0.9166565 0.477478 0.4166565 0.477478 0.75 0.477478 0.9166565 0.477478 0.5833435 0.477478</float_array>
+          <technique_common>
+            <accessor source="#polygon0-mesh-map-0-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="polygon0-mesh-vertices">
+          <input semantic="POSITION" source="#polygon0-mesh-positions"/>
+        </vertices>
+        <triangles material="lamp_dai-material" count="16">
+          <input semantic="VERTEX" source="#polygon0-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#polygon0-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#polygon0-mesh-map-0" offset="2" set="0"/>
+          <p>2 0 0 1 1 1 0 2 2 3 3 3 1 1 4 2 0 5 4 4 6 3 3 7 2 0 8 5 5 9 3 3 10 4 4 11 6 6 12 5 5 13 4 4 14 7 7 15 5 5 16 6 6 17 8 8 18 7 7 19 6 6 20 9 9 21 7 7 22 8 8 23 10 10 24 9 9 25 8 8 26 0 2 27 9 9 28 10 10 29 11 11 30 0 2 31 10 10 32 2 0 33 0 2 34 11 11 35 3 12 36 0 12 37 1 12 38 5 13 39 0 13 40 3 13 41 7 14 42 0 14 43 5 14 44 9 13 45 0 13 46 7 13 47</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers>
+    <controller id="Armature_polygon3-skin" name="Armature">
+      <skin source="#polygon3-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 -1.42109e-14 0 0 1.42109e-14 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_polygon3-skin-joints">
+          <Name_array id="Armature_polygon3-skin-joints-array" count="2">lamp_model glow_model</Name_array>
+          <technique_common>
+            <accessor source="#Armature_polygon3-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon3-skin-bind_poses">
+          <float_array id="Armature_polygon3-skin-bind_poses-array" count="32">100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1 100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon3-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon3-skin-weights">
+          <float_array id="Armature_polygon3-skin-weights-array" count="13">1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon3-skin-weights-array" count="13" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_polygon3-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_polygon3-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="13">
+          <input semantic="JOINT" source="#Armature_polygon3-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_polygon3-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 9 1 10 1 11 1 12</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polygon2-skin" name="Armature">
+      <skin source="#polygon2-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 -1.42109e-14 0 0 1.42109e-14 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_polygon2-skin-joints">
+          <Name_array id="Armature_polygon2-skin-joints-array" count="2">lamp_model glow_model</Name_array>
+          <technique_common>
+            <accessor source="#Armature_polygon2-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon2-skin-bind_poses">
+          <float_array id="Armature_polygon2-skin-bind_poses-array" count="32">100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1 100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon2-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon2-skin-weights">
+          <float_array id="Armature_polygon2-skin-weights-array" count="14">1 1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon2-skin-weights-array" count="14" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_polygon2-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_polygon2-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="14">
+          <input semantic="JOINT" source="#Armature_polygon2-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_polygon2-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12 0 13</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polygon1-skin" name="Armature">
+      <skin source="#polygon1-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 -1.42109e-14 0 0 1.42109e-14 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_polygon1-skin-joints">
+          <Name_array id="Armature_polygon1-skin-joints-array" count="2">lamp_model glow_model</Name_array>
+          <technique_common>
+            <accessor source="#Armature_polygon1-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon1-skin-bind_poses">
+          <float_array id="Armature_polygon1-skin-bind_poses-array" count="32">100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1 100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon1-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon1-skin-weights">
+          <float_array id="Armature_polygon1-skin-weights-array" count="13">1 1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon1-skin-weights-array" count="13" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_polygon1-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_polygon1-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="13">
+          <input semantic="JOINT" source="#Armature_polygon1-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_polygon1-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0 12</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+    <controller id="Armature_polygon0-skin" name="Armature">
+      <skin source="#polygon0-mesh">
+        <bind_shape_matrix>1 0 0 0 0 1 -1.42109e-14 0 0 1.42109e-14 1 0 0 0 0 1</bind_shape_matrix>
+        <source id="Armature_polygon0-skin-joints">
+          <Name_array id="Armature_polygon0-skin-joints-array" count="2">lamp_model glow_model</Name_array>
+          <technique_common>
+            <accessor source="#Armature_polygon0-skin-joints-array" count="2" stride="1">
+              <param name="JOINT" type="name"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon0-skin-bind_poses">
+          <float_array id="Armature_polygon0-skin-bind_poses-array" count="32">100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1 100 0 0 1.453807 0 -1.62921e-5 100 -0.396129 0 -100 -1.62921e-5 3.117699 0 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon0-skin-bind_poses-array" count="2" stride="16">
+              <param name="TRANSFORM" type="float4x4"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Armature_polygon0-skin-weights">
+          <float_array id="Armature_polygon0-skin-weights-array" count="12">1 1 1 1 1 1 1 1 1 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#Armature_polygon0-skin-weights-array" count="12" stride="1">
+              <param name="WEIGHT" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <joints>
+          <input semantic="JOINT" source="#Armature_polygon0-skin-joints"/>
+          <input semantic="INV_BIND_MATRIX" source="#Armature_polygon0-skin-bind_poses"/>
+        </joints>
+        <vertex_weights count="12">
+          <input semantic="JOINT" source="#Armature_polygon0-skin-joints" offset="0"/>
+          <input semantic="WEIGHT" source="#Armature_polygon0-skin-weights" offset="1"/>
+          <vcount>1 1 1 1 1 1 1 1 1 1 1 1 </vcount>
+          <v>0 0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11</v>
+        </vertex_weights>
+      </skin>
+    </controller>
+  </library_controllers>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Armature" name="Armature" type="NODE">
+        <matrix sid="transform">0.01 0 0 0 0 -1.62921e-9 -0.01 0 0 0.01 -1.62921e-9 0 0 0 0 1</matrix>
+        <node id="Armature_lamp_model" name="lamp_model" sid="lamp_model" type="JOINT">
+          <matrix sid="transform">1 0 0 -1.453807 0 1 0 0.396129 0 0 1 -3.117699 0 0 0 1</matrix>
+          <node id="Armature_glow_model" name="glow_model" sid="glow_model" type="JOINT">
+            <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+            <extra>
+              <technique profile="blender">
+                <layer sid="layer" type="string">0</layer>
+                <tip_x sid="tip_x" type="float">0</tip_x>
+                <tip_y sid="tip_y" type="float">1</tip_y>
+                <tip_z sid="tip_z" type="float">0</tip_z>
+              </technique>
+            </extra>
+          </node>
+          <extra>
+            <technique profile="blender">
+              <layer sid="layer" type="string">0</layer>
+              <tip_x sid="tip_x" type="float">0</tip_x>
+              <tip_y sid="tip_y" type="float">1</tip_y>
+              <tip_z sid="tip_z" type="float">0</tip_z>
+            </technique>
+          </extra>
+        </node>
+        <node id="polygon0" name="polygon0" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_polygon0-skin">
+            <skeleton>#Armature_lamp_model</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lamp_dai-material" target="#lamp_dai-material">
+                  <bind_vertex_input semantic="polygon0_UVs0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="polygon1" name="polygon1" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_polygon1-skin">
+            <skeleton>#Armature_lamp_model</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lamp_red-material" target="#lamp_red-material">
+                  <bind_vertex_input semantic="polygon1_UVs0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="polygon2" name="polygon2" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_polygon2-skin">
+            <skeleton>#Armature_lamp_model</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="beam-material" target="#beam-material">
+                  <bind_vertex_input semantic="polygon2_UVs0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+        <node id="polygon3" name="polygon3" type="NODE">
+          <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+          <instance_controller url="#Armature_polygon3-skin">
+            <skeleton>#Armature_lamp_model</skeleton>
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="glow-material" target="#glow-material">
+                  <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_controller>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>

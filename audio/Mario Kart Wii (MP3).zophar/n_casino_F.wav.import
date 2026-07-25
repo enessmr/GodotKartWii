@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dowwfjk252vy8"
+path="res://.godot/imported/n_casino_F.wav-e3b6283ce499dcf0c94b17f568f2bf08.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_casino_F.wav"
+dest_files=["res://.godot/imported/n_casino_F.wav-e3b6283ce499dcf0c94b17f568f2bf08.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

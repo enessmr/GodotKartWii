@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bdgkh5e3ihas0"
+path="res://.godot/imported/r_AGB_Kuppa32_n.mp3-b6c00b2f7304461d01da6245c4f3dacb.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_AGB_Kuppa32_n.mp3"
+dest_files=["res://.godot/imported/r_AGB_Kuppa32_n.mp3-b6c00b2f7304461d01da6245c4f3dacb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

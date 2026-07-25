@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://0egaifbaedwb"
+path="res://.godot/imported/n_casino_F.mp3-58594f101319b5010396b755f238ebb7.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_casino_F.mp3"
+dest_files=["res://.godot/imported/n_casino_F.mp3-58594f101319b5010396b755f238ebb7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

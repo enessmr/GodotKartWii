@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dd55kbxg4pgsx"
+path="res://.godot/imported/n_maple_n.wav-f2478cd1a7b7be2ef08f606c09e3231c.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_maple_n.wav"
+dest_files=["res://.godot/imported/n_maple_n.wav-f2478cd1a7b7be2ef08f606c09e3231c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

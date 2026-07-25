@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7b656hu8bcns"
+path="res://.godot/imported/o_Start2_32_fan.wav-19f66a37a059b63503d81b79d79465ec.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_Start2_32_fan.wav"
+dest_files=["res://.godot/imported/o_Start2_32_fan.wav-19f66a37a059b63503d81b79d79465ec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

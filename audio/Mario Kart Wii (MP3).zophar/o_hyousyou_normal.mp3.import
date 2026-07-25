@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3jseqes02ccm"
+path="res://.godot/imported/o_hyousyou_normal.mp3-1a0de1c03ddc4d3cc2333a1b56d4a46f.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_hyousyou_normal.mp3"
+dest_files=["res://.godot/imported/o_hyousyou_normal.mp3-1a0de1c03ddc4d3cc2333a1b56d4a46f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

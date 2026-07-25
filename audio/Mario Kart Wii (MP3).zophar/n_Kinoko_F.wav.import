@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddym32tflf2kd"
+path="res://.godot/imported/n_Kinoko_F.wav-e5029b076b9a71e67c976518a99bcb85.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_Kinoko_F.wav"
+dest_files=["res://.godot/imported/n_Kinoko_F.wav-e5029b076b9a71e67c976518a99bcb85.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

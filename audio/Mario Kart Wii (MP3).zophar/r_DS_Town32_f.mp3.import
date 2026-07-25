@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d085gopoblmws"
+path="res://.godot/imported/r_DS_Town32_f.mp3-aec46fa349e74bd91fcc343ef6770777.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_DS_Town32_f.mp3"
+dest_files=["res://.godot/imported/r_DS_Town32_f.mp3-aec46fa349e74bd91fcc343ef6770777.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

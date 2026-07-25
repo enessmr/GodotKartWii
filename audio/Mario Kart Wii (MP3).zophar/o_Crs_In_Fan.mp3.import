@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://nui1o2wd6lwm"
+path="res://.godot/imported/o_Crs_In_Fan.mp3-6d7ba9a4b300b4c39aba7baf46905c98.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_Crs_In_Fan.mp3"
+dest_files=["res://.godot/imported/o_Crs_In_Fan.mp3-6d7ba9a4b300b4c39aba7baf46905c98.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

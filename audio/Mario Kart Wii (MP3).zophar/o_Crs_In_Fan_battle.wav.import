@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuxk6sm4kwduw"
+path="res://.godot/imported/o_Crs_In_Fan_battle.wav-e76c7b714ce6a38468d6acd0d68e2b24.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_Crs_In_Fan_battle.wav"
+dest_files=["res://.godot/imported/o_Crs_In_Fan_battle.wav-e76c7b714ce6a38468d6acd0d68e2b24.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://wgatx4kq6x7d"
+path="res://.godot/imported/r_DS_Jungle32_n.mp3-ec7e554f73fc702d03329df40b51deec.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_DS_Jungle32_n.mp3"
+dest_files=["res://.godot/imported/r_DS_Jungle32_n.mp3-ec7e554f73fc702d03329df40b51deec.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

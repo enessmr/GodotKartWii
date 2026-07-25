@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c74kk4i2qk7vn"
+path="res://.godot/imported/r_GC_Battle32_n.wav-c143ff3350a06192806628bbda55f85d.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_GC_Battle32_n.wav"
+dest_files=["res://.godot/imported/r_GC_Battle32_n.wav-c143ff3350a06192806628bbda55f85d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

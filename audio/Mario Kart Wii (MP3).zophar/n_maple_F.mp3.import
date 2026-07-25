@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8oesjygo40a6"
+path="res://.godot/imported/n_maple_F.mp3-034a2a35aed851892ef117e6f9e7f045.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_maple_F.mp3"
+dest_files=["res://.godot/imported/n_maple_F.mp3-034a2a35aed851892ef117e6f9e7f045.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

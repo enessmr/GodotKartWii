@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmr3csxb0c3pa"
+path="res://.godot/imported/n_ryuusa_n.wav-25142baa0952b214cf26f975fd32b60c.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_ryuusa_n.wav"
+dest_files=["res://.godot/imported/n_ryuusa_n.wav-25142baa0952b214cf26f975fd32b60c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

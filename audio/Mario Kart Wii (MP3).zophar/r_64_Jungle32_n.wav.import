@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cv3wl7vg03665"
+path="res://.godot/imported/r_64_Jungle32_n.wav-290a3895ac5b1ca938c1c098e19f21d9.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_64_Jungle32_n.wav"
+dest_files=["res://.godot/imported/r_64_Jungle32_n.wav-290a3895ac5b1ca938c1c098e19f21d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

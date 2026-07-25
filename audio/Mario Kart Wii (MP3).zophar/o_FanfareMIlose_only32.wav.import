@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7uj2y5g8ripc"
+path="res://.godot/imported/o_FanfareMIlose_only32.wav-1d27f321d0c00d9b24c564da52f8591f.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_FanfareMIlose_only32.wav"
+dest_files=["res://.godot/imported/o_FanfareMIlose_only32.wav-1d27f321d0c00d9b24c564da52f8591f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

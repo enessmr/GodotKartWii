@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ctv03gx3flbhu"
+path="res://.godot/imported/r_ds_battle_F.mp3-f573691dbf0115b1e94b587134f9e4a1.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_ds_battle_F.mp3"
+dest_files=["res://.godot/imported/r_ds_battle_F.mp3-f573691dbf0115b1e94b587134f9e4a1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

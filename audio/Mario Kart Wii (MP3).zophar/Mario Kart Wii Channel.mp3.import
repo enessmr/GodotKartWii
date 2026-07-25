@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bwkgxbyjwbmr2"
+path="res://.godot/imported/Mario Kart Wii Channel.mp3-a6a8f78e9f21fcead0af79e12f5ce2a0.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/Mario Kart Wii Channel.mp3"
+dest_files=["res://.godot/imported/Mario Kart Wii Channel.mp3-a6a8f78e9f21fcead0af79e12f5ce2a0.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

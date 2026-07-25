@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cponx1wr3cqji"
+path="res://.godot/imported/n_BossMI_32.wav-3ed4fb4982aca61971e02db43cd75f82.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_BossMI_32.wav"
+dest_files=["res://.godot/imported/n_BossMI_32.wav-3ed4fb4982aca61971e02db43cd75f82.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

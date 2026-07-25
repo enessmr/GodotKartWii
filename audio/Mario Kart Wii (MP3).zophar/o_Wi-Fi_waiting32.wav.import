@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lpr3r4riqxsa"
+path="res://.godot/imported/o_Wi-Fi_waiting32.wav-3740ead284e1d21857278a6ed26fdd2a.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_Wi-Fi_waiting32.wav"
+dest_files=["res://.godot/imported/o_Wi-Fi_waiting32.wav-3740ead284e1d21857278a6ed26fdd2a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

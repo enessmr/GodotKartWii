@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://djewfp23kxhuj"
+path="res://.godot/imported/o_FanfareGPdame_only32.mp3-b937639738fcc70b66a0d5b13edc7a91.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_FanfareGPdame_only32.mp3"
+dest_files=["res://.godot/imported/o_FanfareGPdame_only32.mp3-b937639738fcc70b66a0d5b13edc7a91.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

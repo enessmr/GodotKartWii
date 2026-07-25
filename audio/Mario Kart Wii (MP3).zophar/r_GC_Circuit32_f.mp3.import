@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dirqbnio3psml"
+path="res://.godot/imported/r_GC_Circuit32_f.mp3-8cb7bdf9ce7c780a8557e05b07b8da57.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_GC_Circuit32_f.mp3"
+dest_files=["res://.godot/imported/r_GC_Circuit32_f.mp3-8cb7bdf9ce7c780a8557e05b07b8da57.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5irw4ho0rpgo"
+path="res://.godot/imported/r_AGB_Beach32_f.wav-2294838ea8c4fccabc8fbb088b3ef5db.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/r_AGB_Beach32_f.wav"
+dest_files=["res://.godot/imported/r_AGB_Beach32_f.wav-2294838ea8c4fccabc8fbb088b3ef5db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://4p8ejydfo6em"
+path="res://.godot/imported/n_Farm_n.mp3-ab6e8e2f792276ecf13c1115eed05c28.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_Farm_n.mp3"
+dest_files=["res://.godot/imported/n_Farm_n.mp3-ab6e8e2f792276ecf13c1115eed05c28.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co0c0uhyiqphb"
+path="res://.godot/imported/n_venice_F.wav-37611c852311cca9df38d551c2b93457.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/n_venice_F.wav"
+dest_files=["res://.godot/imported/n_venice_F.wav-37611c852311cca9df38d551c2b93457.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

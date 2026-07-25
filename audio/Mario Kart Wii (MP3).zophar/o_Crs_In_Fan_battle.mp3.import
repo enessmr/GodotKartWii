@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ccvngnuxt0o1p"
+path="res://.godot/imported/o_Crs_In_Fan_battle.mp3-099967c4da387651f6c3bb550973c947.mp3str"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_Crs_In_Fan_battle.mp3"
+dest_files=["res://.godot/imported/o_Crs_In_Fan_battle.mp3-099967c4da387651f6c3bb550973c947.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

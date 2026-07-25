@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdl0w62bq0u1n"
+path="res://.godot/imported/o_FanfareBTdraw_32.wav-d7fb0af4f0c92c2416c6fee5dbdc4274.sample"
+
+[deps]
+
+source_file="res://audio/Mario Kart Wii (MP3).zophar/o_FanfareBTdraw_32.wav"
+dest_files=["res://.godot/imported/o_FanfareBTdraw_32.wav-d7fb0af4f0c92c2416c6fee5dbdc4274.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
