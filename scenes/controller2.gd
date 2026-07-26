@@ -10,3 +10,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if Input.is_action_just_released("a"):
 		get_tree().change_scene_to_file("res://scenes/kartsetupandcharselect.tscn")
+
+
+func _on_meow_pressed() -> void:
+	get_tree().change_scene_to_file("res://scenes/kartsetupandcharselect.tscn")

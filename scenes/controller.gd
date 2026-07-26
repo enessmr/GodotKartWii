@@ -8,5 +8,9 @@ func _process(delta: float) -> void:
 
 
 func _on_time_trials_pressed() -> void:
-	stream1.play()
-	stream2.play()
+	if stream1:
+		stream1.stream_paused = false
+		stream1.volume_db = 0.0
+	if stream2:
+		stream2.stream_paused = false
+		stream2.volume_db = 0.0
