@@ -1,0 +1,126 @@
+[gd_scene format=3 uid="uid://du00n6vv2gome"]
+
+[ext_resource type="Material" uid="uid://cxei1ugbnqkws" path="res://prototype_textures/materials/black_material.tres" id="2_glovn"]
+[ext_resource type="Script" uid="uid://bhv03cgjjuhpv" path="res://stuff/arcade_car/TestStage.gd" id="3"]
+[ext_resource type="Material" uid="uid://cu403c4mr1wnh" path="res://prototype_textures/materials/green_material.tres" id="3_m47ho"]
+[ext_resource type="Material" uid="uid://r1a6lmiyi22y" path="res://prototype_textures/materials/red_material.tres" id="4_ur0jm"]
+[ext_resource type="PackedScene" uid="uid://cblfrevasvt8w" path="res://stuff/arcade_car/ArcadeCar.tscn" id="5_m47ho"]
+
+[sub_resource type="BoxMesh" id="1"]
+material = ExtResource("2_glovn")
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_v2n6a"]
+data = PackedVector3Array(-0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, -0.5, 0.5, -0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, 0.5, -0.5, 0.5, 0.5, 0.5, 0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, 0.5, 0.5, -0.5, 0.5, -0.5, -0.5, -0.5, 0.5, -0.5, 0.5, 0.5, -0.5, -0.5, -0.5, -0.5, -0.5)
+
+[sub_resource type="CylinderMesh" id="4"]
+material = ExtResource("3_m47ho")
+
+[sub_resource type="CylinderShape3D" id="5"]
+
+[sub_resource type="BoxMesh" id="7"]
+material = ExtResource("4_ur0jm")
+
+[sub_resource type="BoxShape3D" id="9"]
+
+[node name="TestStage" type="Node3D" unique_id=964263639]
+script = ExtResource("3")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1992911805]
+transform = Transform3D(39.8606, 0, 0, 0, 0.00966501, 0, 0, 0, 41.8197, 0, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=239314497]
+transform = Transform3D(50, 0, 0, 0, 1, 0, 0, 0, 50, 0, 0, 0)
+mesh = SubResource("1")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1774861795]
+transform = Transform3D(50, 0, 0, 0, 1, 0, 0, 0, 50, 0, 0, 0)
+shape = SubResource("ConcavePolygonShape3D_v2n6a")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=541508458]
+transform = Transform3D(1, 0, 0, 0, 0.553377, 0.832931, 0, -0.832931, 0.553377, 0, 8.38244, 0)
+
+[node name="Obstacle" type="StaticBody3D" parent="." unique_id=2067414584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.81986, 1.0909, -16.0851)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle" unique_id=1044799514]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle" unique_id=935826901]
+shape = SubResource("5")
+
+[node name="Obstacle2" type="StaticBody3D" parent="." unique_id=1155218813]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.94843, 1.0909, -16.0851)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle2" unique_id=1960532218]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle2" unique_id=1078076566]
+shape = SubResource("5")
+
+[node name="Obstacle3" type="StaticBody3D" parent="." unique_id=513761846]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.94843, 1.0909, 15.1586)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle3" unique_id=223982463]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle3" unique_id=1575308117]
+shape = SubResource("5")
+
+[node name="Obstacle4" type="StaticBody3D" parent="." unique_id=796157784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.97579, 1.0909, 15.1586)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle4" unique_id=1000364217]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle4" unique_id=1871129078]
+shape = SubResource("5")
+
+[node name="Obstacle5" type="StaticBody3D" parent="." unique_id=1205722020]
+transform = Transform3D(-4.11997e-07, -2.52882, 0, 1, -1.62921e-07, 0, 0, 0, 1, -1.976, -0.796128, 0.969)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle5" unique_id=1454753782]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle5" unique_id=796575351]
+shape = SubResource("5")
+
+[node name="Obstacle6" type="StaticBody3D" parent="." unique_id=1857653607]
+transform = Transform3D(-4.23832e-07, -2.60146, 0, 1, -1.62921e-07, 0, 0, 0, 1, -1.976, -0.796128, -2.28404)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle6" unique_id=1721555459]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle6" unique_id=1472155188]
+shape = SubResource("5")
+
+[node name="Obstacle7" type="StaticBody3D" parent="." unique_id=1233369468]
+transform = Transform3D(-4.30252e-07, -2.64087, 0, 1, -1.62921e-07, 0, 0, 0, 1, -1.976, -0.796128, -6.06924)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Obstacle7" unique_id=908013646]
+mesh = SubResource("4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Obstacle7" unique_id=198366061]
+shape = SubResource("5")
+
+[node name="Ramp" type="StaticBody3D" parent="." unique_id=1685493038]
+transform = Transform3D(3.74523, 0, 0, 0, 0.939693, -0.34202, 0, 0.611306, 1.67955, 7.9464, -0.550684, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ramp" unique_id=1401518526]
+mesh = SubResource("7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ramp" unique_id=1652337626]
+shape = SubResource("9")
+
+[node name="Ramp2" type="StaticBody3D" parent="." unique_id=969210669]
+transform = Transform3D(3.41095, 0, 0, 0, 0.939693, -0.34202, 0, 0.611306, 1.67955, 20.2052, -0.550684, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ramp2" unique_id=1880936459]
+mesh = SubResource("7")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ramp2" unique_id=593642540]
+shape = SubResource("9")
+
+[node name="ArcadeCar" parent="." unique_id=1236310946 instance=ExtResource("5_m47ho")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.7850547, 0)
+continuous_cd = true
+ACCELERATION = 30

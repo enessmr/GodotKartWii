@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://xpw23hor4l5t"]
+
+[ext_resource type="PackedScene" uid="uid://dqfvsb8oewypy" path="res://models/Wii - Mario Kart Wii - Bikes - Mach Bike/Mach Bike/IDKwhybut_tsgood.tscn" id="1_8qlaj"]
+
+[node name="the mach bike" type="Node3D" unique_id=1623066276]
+
+[node name="menu" parent="." unique_id=1857814233 instance=ExtResource("1_8qlaj")]

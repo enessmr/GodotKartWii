@@ -12,5 +12,6 @@ func _process(delta: float) -> void:
 
 func _on_robo1_pressed() -> void:
 	robo.char_selected = true
+	robo.racing = false
 	await get_tree().create_timer(1.3).timeout
 	stream.volume_db = 0.0
