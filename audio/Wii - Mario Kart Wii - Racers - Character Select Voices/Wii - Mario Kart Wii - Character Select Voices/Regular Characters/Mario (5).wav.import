@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pp0f620x0t0r"
+path="res://.godot/imported/Mario (5).wav-5a1a61375e5b29aafdab726aa7ed6c91.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Mario (5).wav"
+dest_files=["res://.godot/imported/Mario (5).wav-5a1a61375e5b29aafdab726aa7ed6c91.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2os6ty0icj3n"
+path="res://.godot/imported/Funky Kong (1).wav-7a8b1f5d18853bffeb691d126b2dba4f.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Funky Kong (1).wav"
+dest_files=["res://.godot/imported/Funky Kong (1).wav-7a8b1f5d18853bffeb691d126b2dba4f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

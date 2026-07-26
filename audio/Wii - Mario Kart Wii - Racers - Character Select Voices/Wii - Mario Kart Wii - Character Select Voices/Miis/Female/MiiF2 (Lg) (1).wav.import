@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr1hihcu4b80v"
+path="res://.godot/imported/MiiF2 (Lg) (1).wav-065696b09d763c8de5b45b4b5399c90d.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Miis/Female/MiiF2 (Lg) (1).wav"
+dest_files=["res://.godot/imported/MiiF2 (Lg) (1).wav-065696b09d763c8de5b45b4b5399c90d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

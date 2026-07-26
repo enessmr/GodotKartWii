@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvc6s5dsn10j6"
+path="res://.godot/imported/Baby Mario (3).wav-c25854caeddedda5a3ea0cd933f1950a.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Baby Mario (3).wav"
+dest_files=["res://.godot/imported/Baby Mario (3).wav-c25854caeddedda5a3ea0cd933f1950a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

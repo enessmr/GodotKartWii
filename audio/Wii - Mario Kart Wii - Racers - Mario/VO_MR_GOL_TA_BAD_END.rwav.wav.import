@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qh20sh20osi1"
+path="res://.godot/imported/VO_MR_GOL_TA_BAD_END.rwav.wav-183cf2bf5d710a52ffece278fab46f4f.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Mario/VO_MR_GOL_TA_BAD_END.rwav.wav"
+dest_files=["res://.godot/imported/VO_MR_GOL_TA_BAD_END.rwav.wav-183cf2bf5d710a52ffece278fab46f4f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

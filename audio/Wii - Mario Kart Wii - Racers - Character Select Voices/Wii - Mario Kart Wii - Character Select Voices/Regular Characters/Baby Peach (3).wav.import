@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cg7uw7ql1str2"
+path="res://.godot/imported/Baby Peach (3).wav-73b79c8a513f2f46db990e5130b7e511.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Baby Peach (3).wav"
+dest_files=["res://.godot/imported/Baby Peach (3).wav-73b79c8a513f2f46db990e5130b7e511.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

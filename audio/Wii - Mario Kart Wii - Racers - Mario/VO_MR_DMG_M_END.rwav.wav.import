@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://by6gjoyswt6j2"
+path="res://.godot/imported/VO_MR_DMG_M_END.rwav.wav-84f48683482142c021ac6a81ead21118.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Mario/VO_MR_DMG_M_END.rwav.wav"
+dest_files=["res://.godot/imported/VO_MR_DMG_M_END.rwav.wav-84f48683482142c021ac6a81ead21118.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

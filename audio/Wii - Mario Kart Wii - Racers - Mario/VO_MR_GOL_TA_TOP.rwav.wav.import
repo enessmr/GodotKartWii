@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8hx7g5wt88fw"
+path="res://.godot/imported/VO_MR_GOL_TA_TOP.rwav.wav-59fd0667de7cb658b081db32dd667bd2.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Mario/VO_MR_GOL_TA_TOP.rwav.wav"
+dest_files=["res://.godot/imported/VO_MR_GOL_TA_TOP.rwav.wav-59fd0667de7cb658b081db32dd667bd2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

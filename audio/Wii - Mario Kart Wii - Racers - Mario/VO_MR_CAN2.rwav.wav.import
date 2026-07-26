@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://coe4nqh6nuad1"
+path="res://.godot/imported/VO_MR_CAN2.rwav.wav-2e7265921bad8b3b6c54d9da36ad67e0.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Mario/VO_MR_CAN2.rwav.wav"
+dest_files=["res://.godot/imported/VO_MR_CAN2.rwav.wav-2e7265921bad8b3b6c54d9da36ad67e0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

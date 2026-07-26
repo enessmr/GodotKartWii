@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8torxw2w3vbh"
+path="res://.godot/imported/Dry Bowser (2).wav-f5948e3afd5e2aee0359cfb6a16df03b.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Dry Bowser (2).wav"
+dest_files=["res://.godot/imported/Dry Bowser (2).wav-f5948e3afd5e2aee0359cfb6a16df03b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gqy6chj0ny6v"
+path="res://.godot/imported/Yoshi (6).wav-f763a7f01a254142b8eb78a412ef209a.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Yoshi (6).wav"
+dest_files=["res://.godot/imported/Yoshi (6).wav-f763a7f01a254142b8eb78a412ef209a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

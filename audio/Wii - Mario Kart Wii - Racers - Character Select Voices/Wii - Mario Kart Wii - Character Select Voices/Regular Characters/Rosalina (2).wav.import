@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5qx8871mrhse"
+path="res://.godot/imported/Rosalina (2).wav-9f8045d1f41f8f5c8d3cc3a50c7348df.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Rosalina (2).wav"
+dest_files=["res://.godot/imported/Rosalina (2).wav-9f8045d1f41f8f5c8d3cc3a50c7348df.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

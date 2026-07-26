@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbtqhvy6ghgi5"
+path="res://.godot/imported/Luigi (8).wav-bf7f2957601213652fb5b1a7c17ff211.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Luigi (8).wav"
+dest_files=["res://.godot/imported/Luigi (8).wav-bf7f2957601213652fb5b1a7c17ff211.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://13jvp4drf1um"
+path="res://.godot/imported/King Boo (2).wav-8fe3f88a36a5aa4948340368abb4a3a9.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/King Boo (2).wav"
+dest_files=["res://.godot/imported/King Boo (2).wav-8fe3f88a36a5aa4948340368abb4a3a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

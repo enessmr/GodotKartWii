@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b25o2iquyl4b4"
+path="res://.godot/imported/Baby Daisy (3).wav-9cddb2cf6eec2f037d088c5bea64da4a.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Baby Daisy (3).wav"
+dest_files=["res://.godot/imported/Baby Daisy (3).wav-9cddb2cf6eec2f037d088c5bea64da4a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

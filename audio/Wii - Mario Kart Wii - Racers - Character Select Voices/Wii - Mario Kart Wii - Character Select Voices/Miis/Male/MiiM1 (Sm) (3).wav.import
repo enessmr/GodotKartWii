@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rie80xwl380e"
+path="res://.godot/imported/MiiM1 (Sm) (3).wav-9f3869e8556bd7663f4c4d64a55a9e4b.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Miis/Male/MiiM1 (Sm) (3).wav"
+dest_files=["res://.godot/imported/MiiM1 (Sm) (3).wav-9f3869e8556bd7663f4c4d64a55a9e4b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

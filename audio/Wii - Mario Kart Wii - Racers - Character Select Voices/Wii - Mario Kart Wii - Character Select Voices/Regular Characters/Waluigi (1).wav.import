@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://gjhhygp6rrs1"
+path="res://.godot/imported/Waluigi (1).wav-c9220d33df187d3bdb91d9de4d72d2fb.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Waluigi (1).wav"
+dest_files=["res://.godot/imported/Waluigi (1).wav-c9220d33df187d3bdb91d9de4d72d2fb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
