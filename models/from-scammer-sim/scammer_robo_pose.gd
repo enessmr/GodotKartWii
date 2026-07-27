@@ -15,5 +15,5 @@ func _process(delta: float) -> void:
 	elif anim_played == false and racing == false:
 		anim.play("mario")
 	if racing == true:
-		anim.play("machbike")
+		anim.play("mach_bike")
 		mach_bike.show()

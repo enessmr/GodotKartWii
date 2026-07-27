@@ -1,0 +1,20 @@
+	
+
+	Item Box VFX Folder.
+	
+	Created and distributed by Jettelly Inc. (www.jettelly.com)
+	Version : Godot Engine v4.3
+	Date : 2024-11-05
+
+		---
+	
+	License : ATTRIBUTION-NONCOMMERCIAL 4.0 INTERNATIONAL [CC BY-NC 4.0] 
+	https://creativecommons.org/licenses/by-nc/4.0/ 
+
+		---	
+
+	• www.jettelly.com
+	• https://www.linkedin.com/company/jettelly
+	• https://x.com/ushadersbible
+	• https://x.com/jettelly
+	

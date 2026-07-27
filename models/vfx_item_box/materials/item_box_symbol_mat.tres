@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ivrvfsijchfb"]
+
+[ext_resource type="Shader" uid="uid://bv372q24k527a" path="res://models/vfx_item_box/materials/shaders/item_box_symbol.gdshader" id="1_lpdbi"]
+[ext_resource type="Texture2D" uid="uid://clrs3i4iv00wu" path="res://models/vfx_item_box/texture/item_box_symbol_tex.png" id="2_ae2hc"]
+
+[resource]
+render_priority = 1
+shader = ExtResource("1_lpdbi")
+shader_parameter/_Symbol = ExtResource("2_ae2hc")

@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://ckbqwgt4bcuk0"]
+
+[ext_resource type="Shader" uid="uid://dodc2td4p18gq" path="res://models/vfx_item_box/materials/shaders/item_box_exterior.gdshader" id="1_k7wa2"]
+[ext_resource type="Texture2D" uid="uid://c7l81rnmhxs55" path="res://models/vfx_item_box/texture/item_box_matcap_tex.png" id="2_aff8p"]
+
+[resource]
+render_priority = 2
+shader = ExtResource("1_k7wa2")
+shader_parameter/_Matcap = ExtResource("2_aff8p")
