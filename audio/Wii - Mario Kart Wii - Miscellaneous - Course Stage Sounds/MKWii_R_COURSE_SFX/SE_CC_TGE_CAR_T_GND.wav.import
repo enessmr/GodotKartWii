@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lnbotx8xvha"
+path="res://.godot/imported/SE_CC_TGE_CAR_T_GND.wav-ec41e71fa790d30eafadb690c65e7d3b.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CC_TGE_CAR_T_GND.wav"
+dest_files=["res://.godot/imported/SE_CC_TGE_CAR_T_GND.wav-ec41e71fa790d30eafadb690c65e7d3b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

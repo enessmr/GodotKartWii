@@ -6,7 +6,6 @@
 [ext_resource type="AudioStream" uid="uid://de2ooiicscu0g" path="res://audio/Wii - Mario Kart Wii - Racers - Character Select Voices/Wii - Mario Kart Wii - Character Select Voices/Regular Characters/Mario (1).wav" id="4_4uefo"]
 [ext_resource type="Texture2D" uid="uid://ngiwkk8jqkcy" path="res://models/Wii - Mario Kart Wii - Bikes - Mach Bike/Mach Bike/body_mr.png" id="5_rd2dt"]
 [ext_resource type="Texture2D" uid="uid://ciknfox58elvp" path="res://models/Wii - Mario Kart Wii - Bikes - Mach Bike/Mach Bike/bike_tire.png" id="6_4uefo"]
-[ext_resource type="PackedScene" uid="uid://ge1tnw51m5g0" path="res://models/lukiutuse/jugemu.tscn" id="7_4uefo"]
 [ext_resource type="AudioStream" uid="uid://cvvxe8gpdtrlo" path="res://audio/Wii - Mario Kart Wii - Racers - Mario/VO_MR_WLE.rwav.wav" id="7_t3r14"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_xc7gn"]
@@ -8349,9 +8348,3 @@ transform = Transform3D(-1, 0, -8.742278e-08, -1.8678792e-08, 0.97690797, 0.2136
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3883315, 0)
 stream = ExtResource("7_t3r14")
 bus = &"SFX"
-
-[node name="lukiutuse" type="Node3D" parent="." unique_id=1360802505]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 2.0510426, 3.1337495)
-
-[node name="jugemu" parent="lukiutuse" unique_id=668849463 instance=ExtResource("7_4uefo")]
-visible = false

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcepvn46soqbp"
+path="res://.godot/imported/SE_CN_MMC_COW_COL.wav-9de4df72fd12e91b0962e3bad8b25f2a.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CN_MMC_COW_COL.wav"
+dest_files=["res://.godot/imported/SE_CN_MMC_COW_COL.wav-9de4df72fd12e91b0962e3bad8b25f2a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

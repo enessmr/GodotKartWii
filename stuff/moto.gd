@@ -6,6 +6,7 @@ extends RigidBody3D
 @export var max_speed := 85.0  # Base IV max speed
 @export var friction := 5.0
 
+@export_category("DUMBSEEK SHIT")
 @export var center_offset := Vector3(0, -1.2, 0)
 
 # Mach Wheelie settings (Mario Kart Wii style)
@@ -19,6 +20,17 @@ extends RigidBody3D
 
 @export_category("NOT DUMBSEEK SHIT")
 @export var anim: AnimationPlayer
+@export var jg: Node3D
+
+# Race state
+var is_race_about_to_start := true  # Start as true so music plays
+var is_wong_way := false
+var is_fallen_down := false
+
+
+@export_category("DUMBSEEK SHIT")
+@export var race_start_sound: AudioStreamPlayer
+@export var race_music: AudioStreamPlayer
 
 # Internal Velocity (from your own acceleration)
 var iv_speed := 0.0
@@ -60,9 +72,24 @@ func _ready():
 	# Also set racing flag
 	if robo:
 		robo.racing = true
+	
+	# Connect to robo's animation finished signal if it exists
+	if robo and robo.has_signal("race_start_animation_finished"):
+		robo.race_start_animation_finished.connect(_on_race_start_animation_finished)
+	
+	# Start race countdown
+	if is_race_about_to_start:
+		play_race_start_sequence()
 
 
 func _physics_process(delta):
+	# If race hasn't started, freeze the vehicle
+	if is_race_about_to_start:
+		# Completely freeze the vehicle during countdown
+		linear_velocity = Vector3.ZERO
+		angular_velocity = Vector3.ZERO
+		return
+	
 	speed_input = Input.get_axis("brake", "accelerate")
 	turn_input = Input.get_axis("steer_right", "steer_left")
 	
@@ -281,3 +308,42 @@ func remove_ev_boost(amount: float):
 func on_wheelie_animation_complete():
 	if is_wheelie:
 		start_wheelie_exit()
+
+
+# Race start sequence - plays the intro animation
+func play_race_start_sequence():
+	print("🏁 Race about to start!")
+	
+	# Play starting sound effect
+	if race_start_sound:
+		race_start_sound.play()
+	
+	jg.is_race_about_to_start = true
+
+
+# Called by JG/robo when the race start animation finishes
+func _on_race_start_animation_finished():
+	print("🏁 Race start animation finished!")
+	
+	# Start race music
+	if race_music:
+		race_music.play()
+	
+	# Race begins!
+	is_race_about_to_start = false
+	print("🏁 GO! Race started!")
+
+
+# Alternative: Connect to AnimationPlayer's animation_finished signal
+func _on_anim_animation_finished(anim_name: String):
+	if anim_name == "race_start":
+		_on_race_start_animation_finished()
+
+
+# Call this when race is over
+func end_race():
+	is_race_about_to_start = true  # Reset for next race
+	if race_music:
+		race_music.stop()
+	if race_start_sound:
+		race_start_sound.stop()

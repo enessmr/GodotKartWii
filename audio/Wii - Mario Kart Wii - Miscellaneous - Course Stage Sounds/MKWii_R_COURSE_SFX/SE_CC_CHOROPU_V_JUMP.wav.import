@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dojdyvp8exeii"
+path="res://.godot/imported/SE_CC_CHOROPU_V_JUMP.wav-82b7f4cea275513eac8de2248eced0fe.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CC_CHOROPU_V_JUMP.wav"
+dest_files=["res://.godot/imported/SE_CC_CHOROPU_V_JUMP.wav-82b7f4cea275513eac8de2248eced0fe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

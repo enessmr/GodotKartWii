@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d155lel4ahh2s"
+path="res://.godot/imported/SE_CR_GCD_ROCK_GND.wav-e4f1ce9b307cc67695861fe2a56a2835.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CR_GCD_ROCK_GND.wav"
+dest_files=["res://.godot/imported/SE_CR_GCD_ROCK_GND.wav-e4f1ce9b307cc67695861fe2a56a2835.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ysg47ur87eew"
+path="res://.godot/imported/SE_CR_64S_PNGN_C_FN2.wav-1fdede75b460b67387d4684a7c3a1cdd.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CR_64S_PNGN_C_FN2.wav"
+dest_files=["res://.godot/imported/SE_CR_64S_PNGN_C_FN2.wav-1fdede75b460b67387d4684a7c3a1cdd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

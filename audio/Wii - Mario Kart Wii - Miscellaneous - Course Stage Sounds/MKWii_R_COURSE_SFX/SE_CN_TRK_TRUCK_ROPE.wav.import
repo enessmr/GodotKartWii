@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0cf84rt42pw5"
+path="res://.godot/imported/SE_CN_TRK_TRUCK_ROPE.wav-ba2c2a9f0cf17ab7572c846cba4c6b8d.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CN_TRK_TRUCK_ROPE.wav"
+dest_files=["res://.godot/imported/SE_CN_TRK_TRUCK_ROPE.wav-ba2c2a9f0cf17ab7572c846cba4c6b8d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

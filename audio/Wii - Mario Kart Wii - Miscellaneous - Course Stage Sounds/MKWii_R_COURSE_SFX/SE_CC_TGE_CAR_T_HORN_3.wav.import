@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctl7hw038q2q4"
+path="res://.godot/imported/SE_CC_TGE_CAR_T_HORN_3.wav-73d90ff9d6cdf2a73a7ffab0e3bf064b.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Course Stage Sounds/MKWii_R_COURSE_SFX/SE_CC_TGE_CAR_T_HORN_3.wav"
+dest_files=["res://.godot/imported/SE_CC_TGE_CAR_T_HORN_3.wav-73d90ff9d6cdf2a73a7ffab0e3bf064b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
