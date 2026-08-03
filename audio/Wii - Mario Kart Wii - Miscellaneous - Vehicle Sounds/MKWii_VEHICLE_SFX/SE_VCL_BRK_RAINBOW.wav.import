@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4jwdvw5u7pwm"
+path="res://.godot/imported/SE_VCL_BRK_RAINBOW.wav-6b0d2e12f10567d4d6890c42230f9618.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_BRK_RAINBOW.wav"
+dest_files=["res://.godot/imported/SE_VCL_BRK_RAINBOW.wav-6b0d2e12f10567d4d6890c42230f9618.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

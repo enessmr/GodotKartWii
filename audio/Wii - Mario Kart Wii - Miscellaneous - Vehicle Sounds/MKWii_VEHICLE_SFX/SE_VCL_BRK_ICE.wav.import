@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cg2mxt7t70ole"
+path="res://.godot/imported/SE_VCL_BRK_ICE.wav-15c6fcff6aacfb7997a16ddcaa36ab91.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_BRK_ICE.wav"
+dest_files=["res://.godot/imported/SE_VCL_BRK_ICE.wav-15c6fcff6aacfb7997a16ddcaa36ab91.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

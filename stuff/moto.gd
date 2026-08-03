@@ -23,6 +23,7 @@ extends RigidBody3D
 @export var jg: Node3D
 @export var course: Node3D
 @export var race_final: AudioStreamPlayer
+@export var hoohoo: AudioStreamPlayer3D
 var lap_count
 
 # Race state
@@ -124,7 +125,8 @@ func _physics_process(delta):
 	if is_wheelie:
 		# Only play animation once, not every frame
 		if not wheelie_animation_playing:
-			anim.play("wheelie_bike_mach")
+			anim.play("wheelie_bike_mach_end_fr")
+			hoohoo.play()
 			wheelie_animation_playing = true
 		
 		wheelie_active_time += delta

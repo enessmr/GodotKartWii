@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://be0ko4bo5xeny"
+path="res://.godot/imported/SE_VCL_SLIP_RAINBOW.wav-70768026412f0c82824e4e4079ea6dca.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_SLIP_RAINBOW.wav"
+dest_files=["res://.godot/imported/SE_VCL_SLIP_RAINBOW.wav-70768026412f0c82824e4e4079ea6dca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

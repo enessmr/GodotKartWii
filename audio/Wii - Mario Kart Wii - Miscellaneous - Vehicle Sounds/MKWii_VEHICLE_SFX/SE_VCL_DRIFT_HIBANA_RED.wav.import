@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ei5mlf58v3kt"
+path="res://.godot/imported/SE_VCL_DRIFT_HIBANA_RED.wav-6bc0bf4551d8d32f1e311c4d59acf863.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_DRIFT_HIBANA_RED.wav"
+dest_files=["res://.godot/imported/SE_VCL_DRIFT_HIBANA_RED.wav-6bc0bf4551d8d32f1e311c4d59acf863.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

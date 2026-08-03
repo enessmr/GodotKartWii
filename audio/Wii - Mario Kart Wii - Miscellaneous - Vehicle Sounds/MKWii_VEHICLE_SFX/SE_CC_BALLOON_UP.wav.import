@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b684rm45qi6n5"
+path="res://.godot/imported/SE_CC_BALLOON_UP.wav-85e5f855e958938a602437ee485a2197.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_CC_BALLOON_UP.wav"
+dest_files=["res://.godot/imported/SE_CC_BALLOON_UP.wav-85e5f855e958938a602437ee485a2197.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

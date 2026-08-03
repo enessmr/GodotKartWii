@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhrwqw7218io2"
+path="res://.godot/imported/SE_VCL_HORN_BIKE_ES.wav-4f819bf89bf1f7a20ac8f2b4b4d97992.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_HORN_BIKE_ES.wav"
+dest_files=["res://.godot/imported/SE_VCL_HORN_BIKE_ES.wav-4f819bf89bf1f7a20ac8f2b4b4d97992.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

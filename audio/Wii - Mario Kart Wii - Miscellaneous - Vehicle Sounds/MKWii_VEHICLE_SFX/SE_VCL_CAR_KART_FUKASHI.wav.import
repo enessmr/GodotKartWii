@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccvo3ji145jv1"
+path="res://.godot/imported/SE_VCL_CAR_KART_FUKASHI.wav-56c3037f3ea745da95af51acc65b8ef3.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_CAR_KART_FUKASHI.wav"
+dest_files=["res://.godot/imported/SE_VCL_CAR_KART_FUKASHI.wav-56c3037f3ea745da95af51acc65b8ef3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

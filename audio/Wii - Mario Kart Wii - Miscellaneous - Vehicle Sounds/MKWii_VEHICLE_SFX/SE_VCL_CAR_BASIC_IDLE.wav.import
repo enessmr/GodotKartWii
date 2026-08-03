@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1bp142gbcbvm"
+path="res://.godot/imported/SE_VCL_CAR_BASIC_IDLE.wav-5fe3f2f021ddfb7a4caa2cd012025a77.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_CAR_BASIC_IDLE.wav"
+dest_files=["res://.godot/imported/SE_VCL_CAR_BASIC_IDLE.wav-5fe3f2f021ddfb7a4caa2cd012025a77.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

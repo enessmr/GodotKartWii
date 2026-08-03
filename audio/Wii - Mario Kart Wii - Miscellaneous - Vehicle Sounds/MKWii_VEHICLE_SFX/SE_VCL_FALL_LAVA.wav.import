@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://y0c8h7o77vxq"
+path="res://.godot/imported/SE_VCL_FALL_LAVA.wav-1b405a1ffa63885533dba49b114a715a.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_FALL_LAVA.wav"
+dest_files=["res://.godot/imported/SE_VCL_FALL_LAVA.wav-1b405a1ffa63885533dba49b114a715a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

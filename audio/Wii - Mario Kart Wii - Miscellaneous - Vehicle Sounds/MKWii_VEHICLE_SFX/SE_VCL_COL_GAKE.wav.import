@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpe037ak8lduh"
+path="res://.godot/imported/SE_VCL_COL_GAKE.wav-08815a192572441d9ad5a088f01a6d63.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_COL_GAKE.wav"
+dest_files=["res://.godot/imported/SE_VCL_COL_GAKE.wav-08815a192572441d9ad5a088f01a6d63.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

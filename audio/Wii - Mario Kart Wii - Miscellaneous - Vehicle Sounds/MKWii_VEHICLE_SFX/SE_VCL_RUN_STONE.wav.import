@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://br22i8psim4j0"
+path="res://.godot/imported/SE_VCL_RUN_STONE.wav-8d848dd96b2496556d4d6e118ef96e09.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_RUN_STONE.wav"
+dest_files=["res://.godot/imported/SE_VCL_RUN_STONE.wav-8d848dd96b2496556d4d6e118ef96e09.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

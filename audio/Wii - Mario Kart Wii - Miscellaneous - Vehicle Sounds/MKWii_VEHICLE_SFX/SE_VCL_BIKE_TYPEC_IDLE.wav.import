@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cit2c2t0bb3el"
+path="res://.godot/imported/SE_VCL_BIKE_TYPEC_IDLE.wav-ffae183918fc0c24d09af3ff932ab676.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_BIKE_TYPEC_IDLE.wav"
+dest_files=["res://.godot/imported/SE_VCL_BIKE_TYPEC_IDLE.wav-ffae183918fc0c24d09af3ff932ab676.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

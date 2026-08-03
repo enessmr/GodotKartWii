@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwg18r5hanqfe"
+path="res://.godot/imported/SE_CC_COIN_GET_EFF.wav-07bfbb2a666f691af7be1fa56b0ea6cd.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_CC_COIN_GET_EFF.wav"
+dest_files=["res://.godot/imported/SE_CC_COIN_GET_EFF.wav-07bfbb2a666f691af7be1fa56b0ea6cd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

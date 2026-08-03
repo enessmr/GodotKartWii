@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iumeke7urqb8"
+path="res://.godot/imported/SE_VCL_HORN_KART_LDF.wav-443ca228085e2a1bcdfd7d74180a22ed.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_HORN_KART_LDF.wav"
+dest_files=["res://.godot/imported/SE_VCL_HORN_KART_LDF.wav-443ca228085e2a1bcdfd7d74180a22ed.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

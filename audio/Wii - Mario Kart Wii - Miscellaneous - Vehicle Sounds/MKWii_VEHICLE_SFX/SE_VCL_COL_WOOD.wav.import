@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://beemsb8yybox2"
+path="res://.godot/imported/SE_VCL_COL_WOOD.wav-f59c9ca3890da97877a5f7cfa1f90a8e.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_COL_WOOD.wav"
+dest_files=["res://.godot/imported/SE_VCL_COL_WOOD.wav-f59c9ca3890da97877a5f7cfa1f90a8e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

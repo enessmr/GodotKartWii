@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ciix1fp5orhib"
+path="res://.godot/imported/SE_VCL_COL_SHIGEMI.wav-5a0be97548c494d5f4152c3ba8571c02.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_COL_SHIGEMI.wav"
+dest_files=["res://.godot/imported/SE_VCL_COL_SHIGEMI.wav-5a0be97548c494d5f4152c3ba8571c02.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

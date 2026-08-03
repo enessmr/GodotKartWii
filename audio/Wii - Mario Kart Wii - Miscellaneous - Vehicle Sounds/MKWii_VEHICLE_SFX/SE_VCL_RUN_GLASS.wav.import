@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bra1dtr45dpg0"
+path="res://.godot/imported/SE_VCL_RUN_GLASS.wav-20c38fdab14476074244e08b98d6d98f.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_RUN_GLASS.wav"
+dest_files=["res://.godot/imported/SE_VCL_RUN_GLASS.wav-20c38fdab14476074244e08b98d6d98f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

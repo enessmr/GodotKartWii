@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d7bllf20tg3m"
+path="res://.godot/imported/SE_VCL_BRK_ASPHALT.wav-1d7063d9842bf8f9b3f6429aab595e81.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_BRK_ASPHALT.wav"
+dest_files=["res://.godot/imported/SE_VCL_BRK_ASPHALT.wav-1d7063d9842bf8f9b3f6429aab595e81.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

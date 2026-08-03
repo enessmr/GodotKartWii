@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djtq86aafvyik"
+path="res://.godot/imported/SE_VCL_BIKE_4ST_LOOP.wav-5eca5af9bc560317a5d9e1943770a7d2.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - Vehicle Sounds/MKWii_VEHICLE_SFX/SE_VCL_BIKE_4ST_LOOP.wav"
+dest_files=["res://.godot/imported/SE_VCL_BIKE_4ST_LOOP.wav-5eca5af9bc560317a5d9e1943770a7d2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
