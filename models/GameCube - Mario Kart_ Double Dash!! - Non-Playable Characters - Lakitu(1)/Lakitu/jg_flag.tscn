@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c0g5564dxyg8g"]
+
+[ext_resource type="PackedScene" uid="uid://cbyeu53chv2pe" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/jg_flag.dae" id="1_em2xx"]
+
+[node name="jg_flag" unique_id=683612050 instance=ExtResource("1_em2xx")]
+
+[node name="Skeleton3D" parent="." index="0" unique_id=1641125428]
+bones/4/position = Vector3(0, -0.2510886, 0.976284)
+
+[node name="m0" parent="Skeleton3D" index="0" unique_id=1847112012]
+skeleton = NodePath("..")

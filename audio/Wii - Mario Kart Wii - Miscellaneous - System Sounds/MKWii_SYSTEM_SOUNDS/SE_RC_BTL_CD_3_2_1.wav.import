@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://24t3vi3bw7w2"
+path="res://.godot/imported/SE_RC_BTL_CD_3_2_1.wav-f6ff72a9abe5d0af14dcc9f3e75a026c.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - System Sounds/MKWii_SYSTEM_SOUNDS/SE_RC_BTL_CD_3_2_1.wav"
+dest_files=["res://.godot/imported/SE_RC_BTL_CD_3_2_1.wav-f6ff72a9abe5d0af14dcc9f3e75a026c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

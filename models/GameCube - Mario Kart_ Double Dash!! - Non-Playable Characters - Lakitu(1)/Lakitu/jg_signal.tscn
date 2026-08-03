@@ -1,0 +1,184 @@
+[gd_scene format=4 uid="uid://c3a30chujpyai"]
+
+[ext_resource type="PackedScene" uid="uid://dkvbbvv8sijry" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/jg_signal.dae" id="1_arpq6"]
+[ext_resource type="Texture2D" uid="uid://d1sbwscdcix20" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/light.png" id="2_2ray4"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_s3mi2"]
+resource_name = "light_2"
+cull_mode = 2
+albedo_color = Color(0.5647059, 0.93333334, 0, 1)
+albedo_texture = ExtResource("2_2ray4")
+roughness = 0.07647059
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ms3l1"]
+resource_name = "Mesh"
+_surfaces = [{
+"aabb": AABB(-0.14937086, -0.5681128, 0.21427156, 0.29880247, 0.30214095, 0.0319968),
+"attribute_data": PackedByteArray("AJR+PwAAAAAAlH4/AACAPwA8ND8AAAA/AAC0OwAAgD8AALQ7AAAAAAD4/z4A1DQ/APj/PgBQlj4AeJc+AAAAPw=="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(-0.14937086, -0.5681128, 0.21427156, 0.29881245, 0.30215096, 0.0319968)],
+"format": 34359745559,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAgABAAUAAQADAAUABgAAAAIABgACAAUABAAAAAYABQADAAcAAwAEAAcABwAGAAUABwAEAAYA"),
+"lods": [0.057538796, PackedByteArray("AAABAAIAAQADAAIABAAAAAIAAwAEAAIA")],
+"material": SubResource("StandardMaterial3D_s3mi2"),
+"name": "light_2",
+"primitive": 3,
+"skin_data": PackedByteArray("AQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAA="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("mQQZPnYtiL4Bals+mQQZPtdvEb8Bals+Pap8PeyG1b7GLXw+rfQYvtdvEb8Bals+rfQYvnYtiL4Bals+UKSgN7Rz9b7GLXw+UKSgN6uZtb7GLXw+AYJ8veyG1b7GLXw+94/Oj/H/3rb3jzBw7/8gyTyR/3/8/57IBnAwcLrt978GcM6PvO0FwP9/BHL+//+//3/6jf7//7/Bbv9/v+7+vw==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2ray4"]
+resource_name = "light_3"
+cull_mode = 2
+albedo_color = Color(0.5647059, 0.93333334, 0, 1)
+albedo_texture = ExtResource("2_2ray4")
+roughness = 0.07647059
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_s3mi2"]
+resource_name = "Mesh2"
+_surfaces = [{
+"aabb": AABB(0.1494316, -0.5681128, 0.21427156, 0.29409087, 0.30214095, 0.0319968),
+"attribute_data": PackedByteArray("AABaPAAAAAAAlHw/AAAAAACY/j4AUJY+AJR8PwAAgD8AAFo8AACAPwC4Mj8AAAA/AMCXPgAAAD8AmP4+ANQ0Pw=="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0.1494316, -0.5681128, 0.21427156, 0.29409087, 0.30215096, 0.0319968)],
+"format": 34359745559,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAIAAgABAAUAAQADAAUABgAAAAIABgACAAUABAAAAAYABQADAAcAAwAEAAcABwAGAAUABwAEAAYA"),
+"lods": [0.05715704, PackedByteArray("AAABAAIAAQADAAIABAAAAAIAAwAEAAIA")],
+"material": SubResource("StandardMaterial3D_2ray4"),
+"name": "light_3",
+"primitive": 3,
+"skin_data": PackedByteArray("AQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAA="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("mQQZPnYtiL4Bals+YBXjPnYtiL4Bals+5WCXPquZtb7GLXw+YBXjPtdvEb8Bals+mQQZPtdvEb8Bals+M3S2PuyG1b7GLXw+E5twPuyG1b7GLXw+5WCXPrRz9b7GLXw+tm/Kj1rtC8AUkMiP7v/Ntvh/E5H2//+/FJA2cOz/Msm2bzRwWO3yvziO/3/9/xzHnHH/f5rx/r/4f+tu9v//vw==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_hewhq"]
+resource_name = "light_1"
+cull_mode = 2
+albedo_color = Color(0.5647059, 0.93333334, 0, 1)
+albedo_texture = ExtResource("2_2ray4")
+roughness = 0.07647059
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7nf7h"]
+resource_name = "Mesh3"
+_surfaces = [{
+"aabb": AABB(-0.44363338, -0.5681149, 0.21427156, 0.29426253, 0.30214304, 0.0319968),
+"attribute_data": PackedByteArray("AACPPAAAgD8AAFU8AAAAAACYMT8AAAA/AKh8PwAAAAAAqHw/AACAPwDYlT4AAAA/AEj8PgBQlj4AwPw+ANQ0Pw=="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(-0.44363338, -0.5681149, 0.21427156, 0.29426253, 0.30214304, 0.0319968)],
+"format": 34359745559,
+"index_count": 30,
+"index_data": PackedByteArray("AAABAAUABQABAAYAAQADAAYABwAAAAUABwAFAAYABAAAAAcABgADAAIAAwAEAAIABgACAAcAAgAEAAcA"),
+"lods": [0.05688754, PackedByteArray("AAABAAIAAQADAAIABAAAAAIAAwAEAAIA")],
+"material": SubResource("StandardMaterial3D_hewhq"),
+"name": "light_1",
+"primitive": 3,
+"skin_data": PackedByteArray("AQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAA="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("M3TivvpvEb8Bals+6iPjvnYtiL4Bals+jqtzvuyG1b7GLXw+rfQYvnYtiL4Bals+rfQYvtdvEb8Bals+XOG3vuyG1b7GLXw+ru2YvquZtb7GLXw+aMmYvrRz9b7GLXw+fm8jcBDt7r98b7yPFe0OwDWRAYD8/5vI6I/Gj/P/6Lbrjzpw8f8YyThu7X807v6/73/2jev//r/vfwRy6/8AwA==")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="Animation" id="Animation_arpq6"]
+resource_name = "DOOTDOOTDOOOTduutduutduuuuuuuuuuuuhhhh"
+length = 4.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton3D/m2:mesh:surface_0/material:albedo_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(1, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0.34657717, 0.2800086, 1), Color(0.5647059, 0.93333334, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton3D/m0:mesh:surface_0/material:albedo_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(2, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0.34509805, 0.2784314, 1), Color(0.5647059, 0.93333334, 0, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton3D/m1:mesh:surface_0/material:albedo_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(3, 4),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 0.34509805, 0.2784314, 1), Color(0.5647059, 0.93333334, 0, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_2ray4"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Skeleton3D/m1:mesh:surface_0/material:albedo_color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.5647059, 0.93333334, 0, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Skeleton3D/m0:mesh:surface_0/material:albedo_color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.5647059, 0.93333334, 0, 1)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Skeleton3D/m2:mesh:surface_0/material:albedo_color")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(0.5647059, 0.93333334, 0, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_2ray4"]
+_data = {
+&"DOOTDOOTDOOOTduutduutduuuuuuuuuuuuhhhh": SubResource("Animation_arpq6"),
+&"RESET": SubResource("Animation_2ray4")
+}
+
+[node name="jg_signal" unique_id=1032752197 instance=ExtResource("1_arpq6")]
+
+[node name="m0" parent="Skeleton3D" parent_id_path=PackedInt32Array(260763714) index="0" unique_id=1979216562]
+mesh = SubResource("ArrayMesh_ms3l1")
+
+[node name="m1" parent="Skeleton3D" parent_id_path=PackedInt32Array(260763714) index="1" unique_id=836118700]
+mesh = SubResource("ArrayMesh_s3mi2")
+
+[node name="m2" parent="Skeleton3D" parent_id_path=PackedInt32Array(260763714) index="2" unique_id=1335162323]
+mesh = SubResource("ArrayMesh_7nf7h")
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="." index="2" unique_id=593728296]
+libraries/ = SubResource("AnimationLibrary_2ray4")

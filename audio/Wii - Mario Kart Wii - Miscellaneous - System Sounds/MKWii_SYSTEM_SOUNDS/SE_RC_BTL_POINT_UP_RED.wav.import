@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8o263l7t43l1"
+path="res://.godot/imported/SE_RC_BTL_POINT_UP_RED.wav-52fc7ed61b285f3eb12d33253ef51f3c.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - System Sounds/MKWii_SYSTEM_SOUNDS/SE_RC_BTL_POINT_UP_RED.wav"
+dest_files=["res://.godot/imported/SE_RC_BTL_POINT_UP_RED.wav-52fc7ed61b285f3eb12d33253ef51f3c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

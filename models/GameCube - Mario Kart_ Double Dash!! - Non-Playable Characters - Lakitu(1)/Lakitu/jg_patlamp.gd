@@ -1,0 +1,7 @@
+extends Node3D
+
+@export var dihsdjdbafsjdkgbfjgdsjfgksgdjkgafdsahgfjklasfjsfklksadlfsadklshdkfskjdfhkjdhfkjshdfkshkjhsdjkhsdfhkcjxbzvbjkzdhkjfhdsuefhjds: AnimationPlayer
+var reverse = false
+
+func callmebroillcracokthatwasajokePRETENDITNEVERHAPPENED():
+	dihsdjdbafsjdkgbfjgdsjfgksgdjkgafdsahgfjklasfjsfklksadlfsadklshdkfskjdfhkjdhfkjshdfkshkjhsdjkhsdfhkcjxbzvbjkzdhkjfhdsuefhjds.play("REVERSE")

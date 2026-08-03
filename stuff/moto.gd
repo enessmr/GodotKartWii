@@ -21,6 +21,9 @@ extends RigidBody3D
 @export_category("NOT DUMBSEEK SHIT")
 @export var anim: AnimationPlayer
 @export var jg: Node3D
+@export var course: Node3D
+@export var race_final: AudioStreamPlayer
+var lap_count
 
 # Race state
 var is_race_about_to_start := true  # Start as true so music plays
@@ -72,14 +75,14 @@ func _ready():
 	# Also set racing flag
 	if robo:
 		robo.racing = true
-	
-	# Connect to robo's animation finished signal if it exists
+		
 	if robo and robo.has_signal("race_start_animation_finished"):
 		robo.race_start_animation_finished.connect(_on_race_start_animation_finished)
 	
 	# Start race countdown
 	if is_race_about_to_start:
 		play_race_start_sequence()
+	lap_count = 1
 
 
 func _physics_process(delta):
@@ -309,6 +312,17 @@ func on_wheelie_animation_complete():
 	if is_wheelie:
 		start_wheelie_exit()
 
+func next_lap():
+	lap_count += 1
+	if lap_count == course.max_laps:
+		jg.finallap()
+		race_music.stop()
+		await get_tree().create_timer(3.0)
+		race_final.start()
+	else:
+		jg.next_lap()
+	
+
 
 # Race start sequence - plays the intro animation
 func play_race_start_sequence():
@@ -319,9 +333,8 @@ func play_race_start_sequence():
 		race_start_sound.play()
 	
 	jg.is_race_about_to_start = true
+	jg.start_the_frickon_shit()
 
-
-# Called by JG/robo when the race start animation finishes
 func _on_race_start_animation_finished():
 	print("🏁 Race start animation finished!")
 	
@@ -331,6 +344,7 @@ func _on_race_start_animation_finished():
 	
 	# Race begins!
 	is_race_about_to_start = false
+	jg.is_race_about_to_start = false
 	print("🏁 GO! Race started!")
 
 

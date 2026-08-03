@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cayilpj6tsdiu"
+path="res://.godot/imported/SE_UI_EARTH_ROTATE.wav-e03120830dfbfc2f1d1ab74f92a95514.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - System Sounds/MKWii_SYSTEM_SOUNDS/SE_UI_EARTH_ROTATE.wav"
+dest_files=["res://.godot/imported/SE_UI_EARTH_ROTATE.wav-e03120830dfbfc2f1d1ab74f92a95514.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,55 @@
+dou
+===
+  Textures:
+	- jugem_all_tx
+	- k_hlight2
+		Offset: 0, 0.15000000596046448
+		Scale: 1.2000000476837158, 1.2000000476837158
+
+  Ambient Colors:
+	- 128, 128, 128, 50
+
+  Color Registers:
+	- -15, -15, -15, 80
+
+  Steps:
+	1: RGB = ((tex #1 RGB) * (vertex RGB)), then add (-15, -15, -15)
+		 A = ((tex #1 A) * (vertex A))
+	2: RGB = ((80, 80, 80) * (tex #2 RGB)), then add (prev. RGB)
+		 A = (vertex A)
+
+
+
+jugem_glass
+===========
+  Textures:
+	- jugem_glass_tx
+
+  Ambient Colors:
+	- 128, 128, 128, 50
+
+  Steps:
+	1: RGB = ((tex #1 RGB) * (vertex RGB))
+		 A = ((tex #1 A) * (vertex A))
+
+
+
+me_kuchi
+========
+  Textures:
+	- jugem_face.1
+	- k_hlight2
+		Offset: 0, 0.15000000596046448
+		Scale: 1.2000000476837158, 1.2000000476837158
+
+  Ambient Colors:
+	- 128, 128, 128, 50
+
+  Color Registers:
+	- -15, -15, -15, 80
+
+  Steps:
+	1: RGB = ((tex #1 RGB) * (vertex RGB)), then add (-15, -15, -15)
+		 A = ((tex #1 A) * (vertex A))
+	2: RGB = ((80, 80, 80) * (tex #2 RGB)), then add (prev. RGB)
+		 A = (vertex A)

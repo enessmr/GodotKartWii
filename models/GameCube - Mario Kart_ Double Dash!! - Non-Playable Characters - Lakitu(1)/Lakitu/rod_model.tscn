@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://dtnq6tldwieij"]
+
+[ext_resource type="PackedScene" uid="uid://3n150rv58slw" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/rod_model.dae" id="1_tjy1p"]
+
+[node name="rod_model" unique_id=233941556 instance=ExtResource("1_tjy1p")]

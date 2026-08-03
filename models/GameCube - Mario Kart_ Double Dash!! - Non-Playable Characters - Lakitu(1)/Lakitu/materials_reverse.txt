@@ -1,0 +1,29 @@
+reverse_tx
+==========
+  Textures:
+	- jg_reverse
+
+  Ambient Colors:
+	- 50, 50, 50, 50
+
+  Steps:
+	1: RGB = ((tex #1 RGB) * (vertex RGB))
+		 A = ((tex #1 A) * (vertex A))
+
+
+
+yajirushi
+=========
+  Textures:
+	- reverse_yajirushi
+
+  Ambient Colors:
+	- 50, 50, 50, 50
+
+  Color Registers:
+	- 0, 40, 0, 255
+	- 392, 256, 256, 255
+
+  Steps:
+	1: RGB = ((392, 256, 256) * (tex #1 RGB)), then add (0, 40, 0)
+		 A = (tex #1 A)

@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://daplcq5if8sl7"]
+
+[ext_resource type="PackedScene" uid="uid://ryfpp6btjxrf" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/jg_hair_modell.dae" id="1_rdlix"]
+
+[node name="jg_hair_modell" unique_id=684493619 instance=ExtResource("1_rdlix")]

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://di1ehvhj42b41"]
+
+[ext_resource type="Texture2D" uid="uid://d37ro4rn78815" path="res://stuff/godotKart/godotKartDoubleDash/models/items_and_refree/GameCube - Mario Kart_ Double Dash!! - Non-Playable Characters - Lakitu(1)/Lakitu/jg_lap.3.png" id="1_iepp6"]
+
+[resource]
+resource_name = "number"
+cull_mode = 2
+albedo_texture = ExtResource("1_iepp6")
+roughness = 0.07647059

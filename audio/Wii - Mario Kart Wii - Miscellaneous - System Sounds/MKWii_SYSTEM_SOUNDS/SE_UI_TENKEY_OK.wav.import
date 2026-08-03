@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgyo1yae14cq5"
+path="res://.godot/imported/SE_UI_TENKEY_OK.wav-46a3caad450633f442d18d6b50af4ba0.sample"
+
+[deps]
+
+source_file="res://audio/Wii - Mario Kart Wii - Miscellaneous - System Sounds/MKWii_SYSTEM_SOUNDS/SE_UI_TENKEY_OK.wav"
+dest_files=["res://.godot/imported/SE_UI_TENKEY_OK.wav-46a3caad450633f442d18d6b50af4ba0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

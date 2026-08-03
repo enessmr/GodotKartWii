@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bgnxfdrdkmssr"]
+
+[ext_resource type="Texture2D" uid="uid://n7d3jx6q74ob" path="res://models/Wii - Mario Kart Wii - Miscellaneous - Lakitu/Lakitu/jg_lap.2.png" id="1_l5uas"]
+
+[resource]
+resource_name = "number"
+cull_mode = 2
+albedo_texture = ExtResource("1_l5uas")
+roughness = 0.07647059
