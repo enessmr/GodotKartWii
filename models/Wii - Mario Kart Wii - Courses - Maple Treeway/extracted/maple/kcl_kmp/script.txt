@@ -1,0 +1,43 @@
+#--- remove face down roads + lower walls
+
+@def start = mSec()
+@def rm_count = 0
+@def mod_count = 0
+
+# Remove face-down roads
+@for t=0; tri$n()-1
+    @pdef type = tri$flag(t) & 0x1f
+    @if kcl$drive & (1<<type)
+        @def norm = tri$normal(t,0)
+        @if norm.y < 0
+            @def stat = tri$remove(t)
+            @def rm_count = rm_count + 1
+        @endif
+    @endif
+@endfor
+
+
+# Lower walls
+@def lower = isNumeric(lower) ? lower : 30
+@def degree = isNumeric(degree) && degree > 0 ? degree : 45
+@def sin_degree = sin(degree)
+
+@function isWall
+    @pdef t = $1 & 0x1f
+    @return t == 0x0c || t == 0x0d || t == 0x0f || t == 0x14 || t == 0x1e || t == 0x1f
+@endfunction
+
+@for t=0;tri$n()-1
+    @if isWall(tri$flag(t))
+        @def norm = tri$normal(t,0)
+        @if abs(norm.y) < sin_degree
+            @def status = tri$shift(t,-vy(lower))
+            @def mod_count = mod_count + 1
+        @endif
+    @endif
+@endfor
+
+
+@echo "  - " rm_count " face down road triangles removed"
+@echo "  - " mod_count " wall triangles lowered by " lower
+@echo "  - finished in " (mSec()-start) " msec."

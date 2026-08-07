@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+	<asset>
+		<contributor>
+			<authoring_tool>BrawlCrate</authoring_tool>
+		</contributor>
+		<created>2026-08-04T13:34:14Z</created>
+		<modified>2026-08-04T13:34:14Z</modified>
+		<unit meter="0.01" name="centimeter" />
+		<up_axis>Y_UP</up_axis>
+	</asset>
+	<library_materials>
+		<material id="mat_shadow">
+			<instance_effect url="#mat_shadow-fx" />
+		</material>
+	</library_materials>
+	<library_effects>
+		<effect id="mat_shadow-fx" name="mat_shadow">
+			<profile_COMMON>
+				<technique sid="COMMON">
+					<phong>
+						<diffuse />
+					</phong>
+				</technique>
+			</profile_COMMON>
+		</effect>
+	</library_effects>
+	<library_geometries>
+		<geometry id="polygon0" name="polygon0">
+			<mesh>
+				<source id="polygon0_Positions">
+					<float_array id="polygon0_PosArr" count="78">75.75 50 -26.24219 87.46875 50 17.49219 0 50 17.49219 75.75 50 61.22656 43.73438 50 93.24219 0 50 104.9609 -43.73438 50 93.24219 -75.75 50 61.22656 -87.46875 50 17.49219 -75.75 50 -26.24219 -43.73438 50 -58.25781 0 50 -69.97266 43.73438 50 -58.25781 87.46875 -100 17.49219 75.75 -100 -26.24219 0 -100 17.49219 43.73438 -100 -58.25781 0 -100 -69.97266 75.75 -100 61.22656 43.73438 -100 93.24219 0 -100 104.9609 -43.73438 -100 93.24219 -75.75 -100 61.22656 -87.46875 -100 17.49219 -75.75 -100 -26.24219 -43.73438 -100 -58.25781</float_array>
+					<technique_common>
+						<accessor source="#polygon0_PosArr" count="26" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Normals">
+					<float_array id="polygon0_NormArr" count="42">0 1 0 0 -1 0 0.96875 0 -0.265625 0.96875 0 0.265625 0.703125 0 0.703125 0.265625 0 0.96875 -0.265625 0 0.96875 -0.703125 0 0.703125 -0.96875 0 0.265625 -0.96875 0 -0.265625 -0.703125 0 -0.703125 -0.265625 0 -0.96875 0.265625 0 -0.96875 0.703125 0 -0.703125</float_array>
+					<technique_common>
+						<accessor source="#polygon0_NormArr" count="14" stride="3">
+							<param name="X" type="float" />
+							<param name="Y" type="float" />
+							<param name="Z" type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<vertices id="polygon0_Vertices">
+					<input semantic="POSITION" source="#polygon0_Positions" />
+				</vertices>
+				<triangles material="mat_shadow" count="48">
+					<input semantic="VERTEX" source="#polygon0_Vertices" offset="0" />
+					<input semantic="NORMAL" source="#polygon0_Normals" offset="1" />
+					<p>2 0 1 0 0 0 3 0 1 0 2 0 4 0 3 0 2 0 2 0 5 0 4 0 6 0 5 0 2 0 7 0 6 0 2 0 2 0 8 0 7 0 9 0 8 0 2 0 10 0 9 0 2 0 2 0 11 0 10 0 12 0 11 0 2 0 0 0 12 0 2 0 15 1 14 1 13 1 16 1 14 1 15 1 17 1 16 1 15 1 14 2 1 2 13 2 0 2 1 2 14 2 13 3 3 3 18 3 1 3 3 3 13 3 18 4 4 4 19 4 3 4 4 4 18 4 19 5 5 5 20 5 4 5 5 5 19 5 20 6 6 6 21 6 5 6 6 6 20 6 21 7 7 7 22 7 6 7 7 7 21 7 22 8 8 8 23 8 7 8 8 8 22 8 23 9 9 9 24 9 8 9 9 9 23 9 24 10 10 10 25 10 9 10 10 10 24 10 25 11 11 11 17 11 10 11 11 11 25 11 17 12 12 12 16 12 11 12 12 12 17 12 16 13 0 13 14 13 12 13 0 13 16 13 18 1 15 1 13 1 19 1 15 1 18 1 20 1 15 1 19 1 21 1 15 1 20 1 22 1 15 1 21 1 23 1 15 1 22 1 24 1 15 1 23 1 25 1 15 1 24 1 25 1 17 1 15 1</p>
+				</triangles>
+			</mesh>
+		</geometry>
+	</library_geometries>
+	<library_controllers>
+		<controller id="polygon0_Controller">
+			<skin source="#polygon0">
+				<bind_shape_matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</bind_shape_matrix>
+				<source id="polygon0_Joints">
+					<Name_array id="polygon0_JointArr" count="1">pCylinder1</Name_array>
+					<technique_common>
+						<accessor source="#polygon0_JointArr" count="1">
+							<param name="JOINT" type="Name" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Matrices">
+					<float_array id="polygon0_MatArr" count="16">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_MatArr" count="1" stride="16">
+							<param type="float4x4" />
+						</accessor>
+					</technique_common>
+				</source>
+				<source id="polygon0_Weights">
+					<float_array id="polygon0_WeightArr" count="1">1</float_array>
+					<technique_common>
+						<accessor source="#polygon0_WeightArr" count="1">
+							<param type="float" />
+						</accessor>
+					</technique_common>
+				</source>
+				<joints>
+					<input semantic="JOINT" source="#polygon0_Joints" />
+					<input semantic="INV_BIND_MATRIX" source="#polygon0_Matrices" />
+				</joints>
+				<vertex_weights count="26">
+					<input semantic="JOINT" offset="0" source="#polygon0_Joints" />
+					<input semantic="WEIGHT" offset="1" source="#polygon0_Weights" />
+					<vcount>1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</vcount>
+					<v>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</v>
+				</vertex_weights>
+			</skin>
+		</controller>
+	</library_controllers>
+	<library_visual_scenes>
+		<visual_scene id="RootNode" name="RootNode">
+			<node id="pCylinder1" name="pCylinder1" sid="pCylinder1" type="JOINT" />
+			<node id="polygon0" name="polygon0" type="NODE">
+				<instance_controller url="#polygon0_Controller">
+					<skeleton>#pCylinder1</skeleton>
+					<bind_material>
+						<technique_common>
+							<instance_material symbol="mat_shadow" target="#mat_shadow" />
+						</technique_common>
+					</bind_material>
+				</instance_controller>
+			</node>
+		</visual_scene>
+	</library_visual_scenes>
+	<scene>
+		<instance_visual_scene url="#RootNode" />
+	</scene>
+</COLLADA>
