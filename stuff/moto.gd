@@ -32,6 +32,8 @@ var is_fallen_down := false
 @export_category("DUMBSEEK SHIT")
 @export var race_start_sound: AudioStreamPlayer
 @export var race_music: AudioStreamPlayer
+@export var slope_grip := 20.0
+@export var slope_boost := 35.0
 
 @export_category("CANNON SETTINGS")
 @export var cannon_gravity_scale: float = 0.1
@@ -68,8 +70,8 @@ func _ready():
 	ground_ray.add_exception(self)
 	center_of_mass = center_offset
 	
-	axis_lock_angular_x = true
-	axis_lock_angular_z = true
+	axis_lock_angular_x = false
+	axis_lock_angular_z = false
 	
 	if robo:
 		robo.racing = true
@@ -134,7 +136,19 @@ func _physics_process(delta):
 	if forward.length() < 0.01:
 		forward = Vector3.FORWARD
 	forward = forward.normalized()
-	
+
+	# SLOPE BOOST (Mario Kart style)
+	if ground_ray.is_colliding():
+		var slope_amount = 1.0 - normal.dot(Vector3.UP)
+
+		# Downhill boost
+		if forward.dot(Vector3.DOWN) > 0.05:
+			apply_central_force(forward * slope_boost * slope_amount)
+
+		# Keep speed on uphill
+		if forward.dot(Vector3.UP) > 0.05:
+			apply_central_force(forward * acceleration * 0.25)
+
 	var current_vel = linear_velocity.length()
 	iv_speed = current_vel - ev_speed
 	if iv_speed < 0:
